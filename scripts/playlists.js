@@ -24,10 +24,10 @@ function load_csv() {
     fetch(playlists.getAttribute("url"))
         .then(response => response.text())
         .then(text => {
-            let lines = text.split("\n");
+            let lines = text.split("\n").map(line => line.trim()).filter(line => line.length > 0);
             let items = lines.map(line => {
-                let [name, artists, url] = line.split(",");
-                return { name, artists: artists.split(";"), url };
+                let [name, artists, url] = line.split(",").map(element => element.trim());
+                return { name, artists: artists.split(";").map(artist => artist.trim()), url };
             });
             items.sort((a, b) => {
                 let comp = a.artists[0].localeCompare(b.artists[0]);
