@@ -25,10 +25,21 @@ function load_csv() {
         .then(response => response.text())
         .then(text => {
             let lines = text.split("\n");
-            for (let line of lines) {
+            let items = lines.map(line => {
                 let [name, artists, url] = line.split(",");
-                playlist_add(name, artists.split(";"), url);
-            }
+                return { name, artists: artists.split(";"), url };
+            });
+            items.sort((a, b) => {
+                let comp = a.artists[0].localeCompare(b.artists[0]);
+                if (comp === 0) {
+                    return a.name.localeCompare(b.name);
+                } else {
+                    return comp;
+                }
+            });
+            items.forEach(item => {
+                playlist_add(item.name, item.artists, item.url);
+            });
         });
 }
 
