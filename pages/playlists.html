@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body theme="dark">
-    <!-- Shared header -->
+    <!-- Header -->
     <header>
         <h1>Choo Kyunghyun</h1>
         <nav>
@@ -24,18 +24,22 @@
             </ul>
         </nav>
     </header>
-    <!-- Playlists content -->
+    <!-- Main -->
     <main>
         <h2>Playlists</h2>
-        
+        <p>
+            <input type="text" id="search" autocomplete="off">
+        </p>
+        <div class="container" id="playlists" url="/data/playlists.csv"></div>
     </main>
-    <!-- Shared footer -->
+    <!-- Footer -->
     <footer>
         <p>&copy; Choo Kyunghyun</p>
         <p><a href="https://github.com/Choo-Kyunghyun"><img src="/images/github-mark-white.svg" alt="GitHub" class="icon" id="github-mark"></a></p>
     </footer>
-    <!-- Shared script -->
+    <!-- Script -->
     <script src="/scripts/main.js"></script>
+    <script src="/scripts/playlists.js"></script>
     <noscript>Please enable JavaScript to view this page.</noscript>
 </body>
 </html>
