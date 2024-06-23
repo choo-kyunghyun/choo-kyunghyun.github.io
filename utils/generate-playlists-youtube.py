@@ -9,32 +9,32 @@ def is_playlist(youtube_url):
 # Separate playlist URL to Video URLs
 def extract_playlist_videos(youtube_url):
     ydl_opts = {
-        'quiet': True,
-        'simulate': True,
-        'extract_flat': True,
-        'skip_download': True,
-        'force_generic_extractor': True,
-        'extractor_args': {
-            'youtube': {
-                'youtube_include_dash_manifest': False
+        "quiet": True,
+        "simulate": True,
+        "extract_flat": True,
+        "skip_download": True,
+        "force_generic_extractor": True,
+        "extractor_args": {
+            "youtube": {
+                "youtube_include_dash_manifest": False
             }
         }
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         meta = ydl.extract_info(youtube_url, download=False)
-    return [video['url'] for video in meta['entries']] if 'entries' in meta else []
+    return [video["url"] for video in meta["entries"]] if "entries" in meta else []
 
 # Extract video metadata from a YouTube URL
 def extract_video_meta(youtube_url):
     ydl_opts = {
-        'quiet': True,
-        'simulate': True,
-        'extract_flat': True,
-        'skip_download': True,
-        'force_generic_extractor': True,
-        'extractor_args': {
-            'youtube': {
-                'youtube_include_dash_manifest': False
+        "quiet": True,
+        "simulate": True,
+        "extract_flat": True,
+        "skip_download": True,
+        "force_generic_extractor": True,
+        "extractor_args": {
+            "youtube": {
+                "youtube_include_dash_manifest": False
             }
         }
     }
@@ -47,29 +47,29 @@ def select_square_thumbnail(thumbnails):
     highest_resolution = 0
     selected_thumbnail_url = None
     for thumbnail in thumbnails:
-        if thumbnail.get('width') == thumbnail.get('height'):
-            resolution = thumbnail.get('width', 0) * thumbnail.get('height', 0)
+        if thumbnail.get("width") == thumbnail.get("height"):
+            resolution = thumbnail.get("width", 0) * thumbnail.get("height", 0)
             if resolution > highest_resolution:
                 highest_resolution = resolution
-                selected_thumbnail_url = thumbnail['url']
+                selected_thumbnail_url = thumbnail["url"]
     return selected_thumbnail_url
 
 # Extract necessary metadata
 def extract_necessary_meta(meta, youtube_url):
     necessary_meta = {
-        'track': meta.get('track'),
-        'artists': meta.get('artists'),
-        'album': meta.get('album'),
-        'release_year': meta.get('release_year'),
-        'duration_string': meta.get('duration_string'),
-        'thumbnail': select_square_thumbnail(meta.get('thumbnails')),
-        'url': youtube_url,
-        'original_url': meta.get('webpage_url'),
-        'acodec': meta.get('acodec'),
-        'asr': meta.get('asr'),
-        'abr': meta.get('abr'),
-        'audio_channels': meta.get('audio_channels'),
-        'tags': meta.get('tags'),
+        "track": meta.get("track"),
+        "artists": meta.get("artists"),
+        "album": meta.get("album"),
+        "release_year": meta.get("release_year"),
+        "duration_string": meta.get("duration_string"),
+        "thumbnail": select_square_thumbnail(meta.get("thumbnails")),
+        "url": youtube_url,
+        "original_url": meta.get("webpage_url"),
+        "acodec": meta.get("acodec"),
+        "asr": meta.get("asr"),
+        "abr": meta.get("abr"),
+        "audio_channels": meta.get("audio_channels"),
+        "tags": meta.get("tags"),
     }
     return necessary_meta
 
@@ -88,7 +88,7 @@ def extract_metadata(youtube_url):
             selected_meta[key] = f'"{value_str}"'
 
     # Convert selected_meta to CSV string
-    csv_line = ','.join(str(value) for value in selected_meta.values())
+    csv_line = ",".join(str(value) for value in selected_meta.values())
 
     # Return metadata as CSV string
     return csv_line
@@ -96,8 +96,8 @@ def extract_metadata(youtube_url):
 # Process a YouTube URL
 def process_youtube_url(youtube_url, output_file):
     # Check if "&si=" is in the URL and remove it along with everything after it
-    if '&si=' in youtube_url:
-        youtube_url = youtube_url.split('&si=', 1)[0]
+    if "&si=" in youtube_url:
+        youtube_url = youtube_url.split("&si=", 1)[0]
 
     # Print the YouTube URL
     print(youtube_url)
