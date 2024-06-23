@@ -69,7 +69,7 @@ nav ul {
 nav a {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    vertical-align: -0.3rem;
+    vertical-align: -0.4rem;
 }
 
 nav a:hover {
@@ -84,6 +84,7 @@ nav select {
     background-color: rgb(var(--color-surface));
     color: rgb(var(--color-on-surface));
     border: 1px solid rgb(var(--color-border));
+    font-size: 1rem;
 }
 
 .container {
