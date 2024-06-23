@@ -87,6 +87,15 @@ nav select {
     font-size: 1rem;
 }
 
+input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(var(--color-border));
+    background-color: rgb(var(--color-surface));
+    color: rgb(var(--color-on-surface));
+    font-size: 1rem;
+}
+
 .container {
     display: flex;
     justify-content: center;
