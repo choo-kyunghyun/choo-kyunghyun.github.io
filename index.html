@@ -6,16 +6,25 @@
     <title>Choo Kyunghyun</title>
     <link rel="stylesheet" href="/styles/style.css">
 </head>
-<body>
+<body theme="dark">
+    <!-- Shared header -->
     <header>
         <h1>Choo Kyunghyun</h1>
         <nav>
             <ul>
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/pages/playlists.html">Playlists</a></li>
+                <li>
+                    <select id="theme-select">
+                        <option hidden>Theme</option>
+                        <option value="dark">Dark</option>
+                        <option value="light">Light</option>
+                    </select>
+                </li>
             </ul>
         </nav>
     </header>
+    <!-- Home content -->
     <main>
         <h2>Home</h2>
         <div class="container">
@@ -36,8 +45,12 @@
             </section>
         </div>
     </main>
+    <!-- Shared footer -->
     <footer>
         <p>&copy; Choo Kyunghyun</p>
     </footer>
+    <!-- Shared script -->
+    <script src="/scripts/main.js"></script>
+    <noscript>Please enable JavaScript to view this page.</noscript>
 </body>
 </html>
