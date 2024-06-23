@@ -1,8 +1,15 @@
 "use strict";
 
+const github_mark = document.getElementById("github-mark");
+
 function theme_set(theme) {
     document.body.setAttribute("theme", theme);
     localStorage.setItem("theme", theme);
+    if (theme === "dark") {
+        github_mark.src = "/images/github-mark-white.svg";
+    } else if (theme === "light") {
+        github_mark.src = "/images/github-mark.svg";
+    }
 }
 
 function theme_get() {
