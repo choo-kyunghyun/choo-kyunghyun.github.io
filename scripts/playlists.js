@@ -15,7 +15,11 @@ function playlist_add(_track, _artists, _album, _release_year, _duration_string,
     artists.textContent = _artists.join(", ");
     // Create album
     let album = document.createElement("p");
-    album.textContent = _album + " (" + _release_year + ")";
+    if (_release_year === "None") {
+        album.textContent = _album;
+    } else {
+        album.textContent = _album + " (" + _release_year + ")";
+    }
     // Create duration
     let duration = document.createElement("p");
     duration.textContent = _duration_string;
