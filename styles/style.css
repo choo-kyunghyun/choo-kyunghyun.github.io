@@ -17,7 +17,6 @@ body {
     background-color: rgb(var(--color-surface));
     color: rgb(var(--color-on-surface));
     text-align: center;
-    line-height: 1.5;
     margin: 0;
 }
 
@@ -109,6 +108,7 @@ input {
     border: 1px solid rgb(var(--color-border));
     border-radius: 0.5rem;
     width: 322px;
+    padding-bottom: 1rem;
 }
 
 .logo {
