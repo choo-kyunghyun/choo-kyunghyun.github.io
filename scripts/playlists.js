@@ -5,7 +5,7 @@ const playlists = document.getElementById("playlists");
 const search = document.getElementById("search");
 
 // Add playlist card
-function playlist_add(_track, _artists, _album, _release_year, _duration_string, _thumbnail, _url, _original_url, _acodec, _asr, _abr, _audio_channels, _tags) {
+function playlist_add(_track, _artists, _album, _release_year, _duration_string, _thumbnail, _url, _acodec, _asr, _abr, _audio_channels, _tags) {
     // Create track
     let track = document.createElement("p");
     track.style.fontWeight = "bold";
@@ -49,7 +49,11 @@ function playlist_add(_track, _artists, _album, _release_year, _duration_string,
     // Add elements to card
     card.appendChild(thumbnail);
     card.appendChild(track);
-    card.appendChild(album);
+    if (_album === "None") {
+        album.remove();
+    } else {
+        card.appendChild(album);
+    }
     card.appendChild(artists);
     card.appendChild(duration);
     card.appendChild(url);
@@ -60,33 +64,39 @@ function playlist_add(_track, _artists, _album, _release_year, _duration_string,
 
 // Parse CSV
 function parse_csv_line(line) {
-    const regex = /(?:^|,)(\"(?:[^\"]+|\"\")*\"|[^,]*)/g;
+    const regex = /(?:\"([^\"]*(?:\"\"[^\"]*)*)\")|([^,]+)/g;
     let matches = [];
     let match;
     while ((match = regex.exec(line)) !== null) {
-        let cleaned = match[1].startsWith('"') ? match[1].slice(1, -1).replace(/""/g, '"') : match[1];
-        matches.push(cleaned.trim());
+        matches.push(match[1] ? match[1].replace(/\"\"/g, '"') : match[2]);
     }
     return matches;
 }
 
 // Parse CSV list
-function parse_csv_list(field) {
-    if (field.startsWith("[") && field.endsWith("]")) {
-        const fixed = field.replace(/'/g, '"');
-        return JSON.parse(fixed);
+function convert_list(field) {
+    // Check if field is empty
+    if (field === "None") {
+        return [];
     }
-    return [field];
+    // Remove [ and ] from field
+    field = field.substring(1, field.length - 1);
+    // Split field by comma
+    let items = field.split(",").map(item => item.trim()).filter(item => item.length > 0);
+    // Remove single quotes from items
+    items = items.map(item => item.replace(/'/g, ""));
+    // Return items
+    return items;
 }
 
 // Process CSV
 function process_csv(text) {
     let lines = text.split("\n").map(line => line.trim()).filter(line => line.length > 0);
     let items = lines.map(line => {
-        let [track, artists, album, release_year, duration_string, thumbnail, url, original_url, acodec, asr, abr, audio_channels, tags] = parse_csv_line(line);
-        artists = parse_csv_list(artists);
-        tags = parse_csv_list(tags);
-        return { track, artists, album, release_year, duration_string, thumbnail, url, original_url, acodec, asr, abr, audio_channels, tags };
+        let [track, artists, album, release_year, duration_string, thumbnail, url, acodec, asr, abr, audio_channels, tags] = parse_csv_line(line);
+        artists = convert_list(artists);
+        tags = convert_list(tags);
+        return { track, artists, album, release_year, duration_string, thumbnail, url, acodec, asr, abr, audio_channels, tags };
     });
     return items;
 }
@@ -111,7 +121,7 @@ function load_csv() {
             });
             // Add items to playlists
             items.forEach(item => {
-                playlist_add(item.track, item.artists, item.album, item.release_year, item.duration_string, item.thumbnail, item.url, item.original_url, item.acodec, item.asr, item.abr, item.audio_channels, item.tags);
+                playlist_add(item.track, item.artists, item.album, item.release_year, item.duration_string, item.thumbnail, item.url, item.acodec, item.asr, item.abr, item.audio_channels, item.tags);
             });
         });
 }
