@@ -3,7 +3,7 @@ import csv
 import yt_dlp
 
 # Get metadata from YouTube URL
-def get_metadata(youtube_url):
+def get_metadata(youtube_url, cookie):
     ydl_opts = {
         "quiet": True,
         "simulate": True,
@@ -14,15 +14,16 @@ def get_metadata(youtube_url):
             "youtube": {
                 "youtube_include_dash_manifest": False
             }
-        }
+        },
+        "cookiefile": cookie,
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         meta = ydl.extract_info(youtube_url, download=False)
     return meta
 
 # Separate playlist URL to Video URLs
-def get_playlist_videos(youtube_url):
-    meta = get_metadata(youtube_url)
+def get_playlist_videos(youtube_url, cookie):
+    meta = get_metadata(youtube_url, cookie)
     return [video["url"] for video in meta["entries"]] if "entries" in meta else []
 
 # Select thumbnail URL
@@ -60,7 +61,7 @@ def filter_meta(meta):
     return metadata
 
 # Process a YouTube URL
-def process_youtube_url(youtube_url, csv_writer):
+def process_youtube_url(youtube_url, csv_writer, cookie):
     # Check if "&si=" is in the URL and remove it along with everything after it
     if "&si=" in youtube_url:
        youtube_url = youtube_url.split("&si=", 1)[0]
@@ -69,7 +70,7 @@ def process_youtube_url(youtube_url, csv_writer):
     print(youtube_url)
 
     # Extract metadata from the YouTube URL
-    meta = filter_meta(get_metadata(youtube_url))
+    meta = filter_meta(get_metadata(youtube_url, cookie))
 
     # Write metadata to output file
     # csv_writer.writerow(meta.values())
@@ -78,6 +79,10 @@ def process_youtube_url(youtube_url, csv_writer):
 # Set names of input and output files
 input_file_name = "playlists-youtube-urls.txt"
 output_file_name = "playlists.csv"
+cookie_file_name = "cookie-youtube.txt"
+
+# Block cookies
+bBlockCookies = True
 
 # Open input file
 try:
@@ -92,6 +97,18 @@ output_file = open(output_file_name, "a", encoding="utf-8", newline="")
 
 # Create CSV writer
 csv_writer = csv.writer(output_file)
+
+# Check if cookie file exists
+cookie = None
+try:
+    with open(cookie_file_name, "r"):
+        cookie = cookie_file_name
+except FileNotFoundError:
+    pass
+
+# Check if cookies are blocked
+if bBlockCookies:
+    cookie = None
 
 # Read input file
 youtube_urls = input_file.readlines()
@@ -114,12 +131,12 @@ for youtube_url in youtube_urls:
 
     # If the URL is a playlist, extract video URLs from it
     if "list=" in youtube_url:
-        playlist_videos = get_playlist_videos(youtube_url)
+        playlist_videos = get_playlist_videos(youtube_url, cookie)
         for video_url in playlist_videos:
-            process_youtube_url(video_url, csv_writer)
+            process_youtube_url(video_url, csv_writer, cookie)
             count += 1
     else:
-        process_youtube_url(youtube_url, csv_writer)
+        process_youtube_url(youtube_url, csv_writer, cookie)
         count += 1
 
 # Print success message
