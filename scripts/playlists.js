@@ -83,8 +83,8 @@ function convert_list(field) {
     field = field.substring(1, field.length - 1);
     // Split field by comma
     let items = field.split(",").map(item => item.trim()).filter(item => item.length > 0);
-    // Remove single quotes from items
-    items = items.map(item => item.replace(/'/g, ""));
+    // Remove single quotes of beginning and end of items
+    items = items.map(item => item.replace(/^'/, "").replace(/'$/, ""));
     // Return items
     return items;
 }
