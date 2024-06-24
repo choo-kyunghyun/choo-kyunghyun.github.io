@@ -3,7 +3,7 @@ import csv
 
 # Constants
 file_path = "playlists.csv"
-cols = [6, 7]
+cols = [6]
 
 # Open the file
 try:
