@@ -29,6 +29,9 @@ for row_num, row in enumerate(reader, start=1):
 # Close the file
 file.close()
 
+# Count the number of duplicated rows
+duplicated_rows = list(duplicated_rows)
+
 # Print the results
 if len(duplicated_rows) == 0:
     print("No duplicated rows found.")
@@ -36,3 +39,4 @@ else:
     print("Duplicated rows:")
     for row_num, row in duplicated_rows:
         print(f"Row {row_num}: {row}")
+    print(f"Total: {len(duplicated_rows)} duplicated rows.")
