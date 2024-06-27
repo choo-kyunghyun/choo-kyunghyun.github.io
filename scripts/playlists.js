@@ -1,11 +1,15 @@
 "use strict";
 
-// Get playlists and search bar
+// Get elements
 const playlists = document.getElementById("playlists");
 const search = document.getElementById("search");
+const artists = document.getElementById("artists");
+
+// Artists set
+let artists_set = new Set();
 
 // Add playlist card
-function playlist_add(_track, _artists, _album, _release_year, _duration_string, _thumbnail, _url, _acodec, _asr, _abr, _audio_channels, _tags) {
+function playlist_add(_track, _artists, _album, _release_year, _duration_string, _thumbnail, _url, _tags) {
     // Create track
     let track = document.createElement("p");
     track.style.fontWeight = "bold";
@@ -93,12 +97,22 @@ function convert_list(field) {
 function process_csv(text) {
     let lines = text.split("\n").map(line => line.trim()).filter(line => line.length > 0);
     let items = lines.map(line => {
-        let [track, artists, album, release_year, duration_string, thumbnail, url, acodec, asr, abr, audio_channels, tags] = parse_csv_line(line);
+        let [track, artists, album, release_year, duration_string, thumbnail, url, tags] = parse_csv_line(line);
         artists = convert_list(artists);
         tags = convert_list(tags);
-        return { track, artists, album, release_year, duration_string, thumbnail, url, acodec, asr, abr, audio_channels, tags };
+        return { track, artists, album, release_year, duration_string, thumbnail, url, tags };
     });
     return items;
+}
+
+// Add artist to artists
+function artist_add(artist) {
+    let card = document.createElement("div");
+    card.classList.add("card");
+    let text = document.createElement("p");
+    text.textContent = artist;
+    card.appendChild(text);
+    artists.appendChild(card);
 }
 
 // Load playlists from CSV
@@ -119,9 +133,15 @@ function load_csv() {
                     return cmp;
                 }
             });
+            // Add artists to artists set
+            items.forEach(item => {
+                item.artists.forEach(artist => artists_set.add(artist));
+            });
+            // Add artists to artists
+            artists_set.forEach(artist => artist_add(artist));
             // Add items to playlists
             items.forEach(item => {
-                playlist_add(item.track, item.artists, item.album, item.release_year, item.duration_string, item.thumbnail, item.url, item.acodec, item.asr, item.abr, item.audio_channels, item.tags);
+                playlist_add(item.track, item.artists, item.album, item.release_year, item.duration_string, item.thumbnail, item.url, item.tags);
             });
         });
 }
@@ -130,6 +150,7 @@ function load_csv() {
 search.addEventListener("input", () => {
     let query = search.value.toLowerCase();
     let cards = playlists.getElementsByClassName("card");
+    let lists = artists.getElementsByClassName("card");
     for (let card of cards) {
         let keywords = card.getElementsByTagName("p");
         let found = false;
@@ -143,6 +164,14 @@ search.addEventListener("input", () => {
             card.style.display = "block";
         } else {
             card.style.display = "none";
+        }
+    }
+    for (let list of lists) {
+        let text = list.getElementsByTagName("p")[0];
+        if (text.textContent.toLowerCase().includes(query)) {
+            list.style.display = "block";
+        } else {
+            list.style.display = "none";
         }
     }
 });

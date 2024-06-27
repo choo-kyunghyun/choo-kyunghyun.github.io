@@ -108,7 +108,6 @@ input {
     border: 1px solid rgb(var(--color-border));
     border-radius: 0.5rem;
     width: 322px;
-    padding-bottom: 1rem;
 }
 
 .logo {
@@ -119,4 +118,5 @@ input {
 .icon {
     width: 1.5rem;
     height: 1.5rem;
+    margin-bottom: 1rem;
 }
