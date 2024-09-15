@@ -1,11 +1,9 @@
 :root {
     --font-body: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, monospace;
-    --alpha-highlight: 0.25;
-    --color-surface: 13, 17, 23;
-    --color-on-surface: 201, 209, 217;
-    --color-highlight: 88, 166, 255;
-    --color-border: 48, 54, 61;
-    --color-header: 1, 4, 9;
+    --color-surface: #262626;
+    --color-on-surface: #f6f6f6;
+    --color-highlight: #ffa6ea;
+    --color-border: #1e1e1e;
 }
 
 * {
@@ -14,85 +12,59 @@
 
 body {
     font-family: var(--font-body);
-    background-color: rgb(var(--color-surface));
-    color: rgb(var(--color-on-surface));
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
     text-align: center;
     margin: 0;
 }
 
-body[theme="dark"] {
-    --color-surface: 13, 17, 23;
-    --color-on-surface: 201, 209, 217;
-    --color-highlight: 88, 166, 255;
-    --color-border: 48, 54, 61;
-    --color-header: 1, 4, 9;
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: var(--color-border);
 }
 
-body[theme="light"] {
-    --color-surface: 255, 255, 255;
-    --color-on-surface: 31, 35, 40;
-    --color-highlight: 3, 102, 214;
-    --color-border: 225, 228, 232;
-    --color-header: 246, 248, 250;
+footer {
+    justify-content: center;
 }
 
-header {
-    background-color: rgb(var(--color-header));
-    border-bottom: 1px solid rgb(var(--color-border));
+main {
+    min-height: 100vh;
+    margin: 2rem 0;
 }
 
 a {
     text-decoration: none;
-    color: rgb(var(--color-on-surface));
+    color: var(--color-highlight);
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(var(--color-highlight));
 }
 
 h1 {
-    padding-top: 1rem;
     font-size: 1.5rem;
-    margin: 0;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
     list-style-type: none;
-    padding: 0;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-nav a {
+select, input, button {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    vertical-align: -0.4rem;
-}
-
-nav a:hover {
-    text-decoration: none;
-    color: rgb(var(--color-on-surface));
-    background-color: rgba(var(--color-on-surface), var(--alpha-highlight));
-}
-
-nav select {
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    background-color: rgb(var(--color-surface));
-    color: rgb(var(--color-on-surface));
-    border: 1px solid rgb(var(--color-border));
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    border: 1.5px solid var(--color-on-surface);
     font-size: 1rem;
 }
 
-input {
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    border: 1px solid rgb(var(--color-border));
-    background-color: rgb(var(--color-surface));
-    color: rgb(var(--color-on-surface));
-    font-size: 1rem;
+button {
+    cursor: pointer;
 }
 
 .container {
@@ -105,9 +77,10 @@ input {
 }
 
 .card {
-    border: 1px solid rgb(var(--color-border));
+    background-color: var(--color-border);
     border-radius: 0.5rem;
-    width: 322px;
+    width: 320px;
+    padding-bottom: 1rem;
 }
 
 .logo {
@@ -118,5 +91,23 @@ input {
 .icon {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.ball {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
     margin-bottom: 1rem;
+    background-color: var(--color-highlight);
+    align-content: center;
+    font-size: 1.5rem;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        --color-surface: #f6f6f6;
+        --color-on-surface: #262626;
+        --color-highlight: #5e0ed6;
+        --color-border: #e6e6e6;
+    }
 }
