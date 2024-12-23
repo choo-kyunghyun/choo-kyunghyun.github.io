@@ -1,33 +1,18 @@
 "use strict";
 
-class Showcase {
-    constructor(_div, _file) {
-        this.collection = [];
-        this.div = _div;
-        this.load(_file);
-    }
+import { Showcase } from "./showcase.js";
 
-    load(_file) {
-        if (!_file) {
-            return;
-        }
-        fetch(_file).then((response) => response.json())
-            .then((json) => this.collection = json)
-            .then(() => {
-                this.display();
-            })
-            .catch((error) => console.error(error));
+class Playlist extends Showcase {
+    constructor(_div, _file) {
+        super(_div, _file);
     }
 
     display() {
         this.div.innerHTML = "";
-        let count = 0;
         let items = [];
         for (const item of this.collection) {
             items.push(item);
-            count++;
         }
-        console.log(count + " items loaded.");
         items.sort((a, b) => a.title.localeCompare(b.title));
         for (const item of items) {
             let card = document.createElement("div");
@@ -47,17 +32,13 @@ class Showcase {
 }
 
 const playlists = document.getElementById("playlists");
-const showcase = new Showcase(document.getElementById("playlist"), playlists.value);
+const playlist = new Playlist(document.getElementById("playlist"), playlists.value);
 
 playlists.addEventListener("change", () => {
-    showcase.load(playlists.value);
+    playlist.load(playlists.value);
 });
 
 document.getElementById("search").addEventListener("input", (event) => {
     let query = event.target.value.toLowerCase();
-    let cards = showcase.div.getElementsByClassName("card");
-    for (let card of cards) {
-        let context = card.textContent.toLowerCase();
-        card.style.display = context.includes(query) ? "block" : "none";
-    }
+    playlist.search(query);
 });

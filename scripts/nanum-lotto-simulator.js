@@ -1,6 +1,5 @@
 "use strict";
 
-// Lotto class
 class Lotto {
     constructor() {
         this.numbers = [];
@@ -82,7 +81,6 @@ class Lotto {
     }
 }
 
-// Jackpot class
 class Jackpot extends Lotto {
     constructor() {
         super();
@@ -114,11 +112,9 @@ class Jackpot extends Lotto {
     }
 }
 
-// Get elements
 const output = document.getElementById("output");
 const count = document.getElementById("count");
 
-// Check button event listener
 document.getElementById("check").addEventListener("click", function() {
     output.innerHTML = "";
     let win = new Jackpot();
