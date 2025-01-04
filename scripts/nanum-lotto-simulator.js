@@ -13,7 +13,7 @@ class Lotto {
                 this.numbers.push(number);
             }
         }
-        this.numbers.sort(function(a, b) {
+        this.numbers.sort(function (a, b) {
             return a - b;
         });
     }
@@ -49,11 +49,10 @@ class Lotto {
     export(_jackpot, _bonus) {
         let count = 0;
         let plus = false;
-
         let serial = document.createElement("div");
         serial.style.outline = "2px solid #333333";
         serial.style.borderRadius = "0.5rem";
-        serial.style.padding = "1rem 0 0 0";
+        serial.style.padding = "1rem";
         serial.classList.add("container");
 
         for (let i = 0; i < this.numbers.length; i++) {
@@ -76,7 +75,6 @@ class Lotto {
         let matched = document.createElement("div");
         matched.innerHTML = `<div style="font-size: 1.5rem; margin-top: 0.45rem">${count + (plus ? " + 1" : "")}</div>`;
         serial.appendChild(matched);
-        
         return serial;
     }
 }
@@ -115,7 +113,7 @@ class Jackpot extends Lotto {
 const output = document.getElementById("output");
 const count = document.getElementById("count");
 
-document.getElementById("check").addEventListener("click", function() {
+document.getElementById("check").addEventListener("click", function () {
     output.innerHTML = "";
     let win = new Jackpot();
     win.pick();
@@ -126,7 +124,7 @@ document.getElementById("check").addEventListener("click", function() {
         lotto.pick();
         lottos.push(lotto);
     }
-    lottos.sort(function(a, b) {
+    lottos.sort(function (a, b) {
         return b.check(win.numbers, win.bonus) - a.check(win.numbers, win.bonus);
     });
     for (let i = 0; i < lottos.length; i++) {

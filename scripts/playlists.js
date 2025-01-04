@@ -18,7 +18,7 @@ class Playlist extends Showcase {
             let card = document.createElement("div");
             card.classList.add("card");
             card.innerHTML = `
-                <div style="background-image: url('${item.thumbnail}'); background-position: center center; background-size: cover; display: inline-block; width: 320px; height: 320px; border-radius: 0.5rem 0.5rem 0 0;"></div>
+                <div style="background-image: url('${item.thumbnail}'); background-position: center; background-size: cover; width: 320px; height: 320px; border-radius: 0.5rem 0.5rem 0 0;"></div>
                 <p style="font-weight: bold;">${item.title}</p>
                 ${item.album !== null ? `<p>${item.release_year == null ? item.album : item.album + " (" + item.release_year + ")"}</p>` : ""}
                 <p>${item.artists !== null ? item.artists.join(", ") : ""}</p>

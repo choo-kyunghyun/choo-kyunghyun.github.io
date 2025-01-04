@@ -33,6 +33,8 @@ footer {
 main {
     min-height: 100vh;
     margin: 2rem 0;
+    width: 80%;
+    margin: 2rem auto;
 }
 
 a {
@@ -72,7 +74,6 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 80%;
     gap: 2rem;
 }
 
@@ -91,6 +92,18 @@ button {
 .icon {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-border);
+    border-left: 0.25rem solid var(--color-highlight);
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    gap: 2rem;
+    text-align: left;
 }
 
 .ball {
