@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playlists</title>
-    <link rel="stylesheet" href="/styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Choo&nbsp;Kyunghyun</h1>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/learn/index.html">Learn</a></li>
-            </ul>
-        </nav>
+      <h1>Choo&nbsp;Kyunghyun</h1>
+      <nav><a href="/index.html">Home</a></nav>
     </header>
     <main>
-        <h2>Playlists</h2>
-        <select id="playlists">
-            <option value="/data/playlist-diamond.json">Diamond</option>
-            <option value="/data/playlist-gold.json">Gold</option>
-            <option value="/data/playlist-sapphire.json">Sapphire</option>
-            <option value="/data/playlist-silver.json">Silver</option>
-            <option value="/data/playlist-candy.json">Candy</option>
-        </select>
-        <p>
-            <input type="text" id="search" autocomplete="off" placeholder="Search">
-        </p>
-        <div class="container" id="playlist"></div>
+      <h2>Playlists</h2>
+      <select id="playlists">
+        <option value="/data/playlist-diamond.json">Diamond</option>
+        <option value="/data/playlist-gold.json">Gold</option>
+        <option value="/data/playlist-sapphire.json">Sapphire</option>
+        <option value="/data/playlist-silver.json">Silver</option>
+        <option value="/data/playlist-candy.json">Candy</option>
+      </select>
+      <p>
+        <input
+          type="text"
+          id="search"
+          autocomplete="off"
+          placeholder="Search" />
+      </p>
+      <div class="container" id="playlist"></div>
     </main>
     <footer>
-        <p>&copy; Choo&nbsp;Kyunghyun</p>
+      <p>&copy; Choo&nbsp;Kyunghyun</p>
     </footer>
     <script type="module" src="/scripts/playlists.js"></script>
     <noscript>Please enable JavaScript to view this page.</noscript>
-</body>
+  </body>
 </html>

@@ -1,45 +1,52 @@
 "use strict";
 
 export class Showcase {
-    constructor(_div, _file) {
-        this.collection = [];
-        this.div = _div;
-        this.load(_file);
-    }
+  constructor(div, file) {
+    this.collection = [];
+    this.div = div;
+    this.load(file);
+  }
 
-    load(_file) {
-        if (!_file) {
-            return;
-        }
-        fetch(_file).then((response) => response.json())
-            .then((json) => this.collection = json)
-            .then(() => {
-                this.display();
-            })
-            .catch((error) => console.error(error));
+  async load(file) {
+    try {
+      const response = await fetch(file);
+      this.collection = await response.json();
+      this.display();
+    } catch (error) {
+      console.error("Failed to load file:", error);
     }
+  }
 
-    display() {
-        this.div.innerHTML = "";
-        let items = [];
-        for (const item of this.collection) {
-            items.push(item);
-        }
-        for (const item of items) {
-            let card = document.createElement("div");
-            card.classList.add("card");
-            card.innerHTML = `
-                <p>Override this method in a subclass.</p>
-            `;
-            this.div.appendChild(card);
-        }
+  display() {
+    this.div.innerHTML = "";
+    if (Array.isArray(this.collection)) {
+      this.collection.forEach((item) => {
+        const card = document.createElement("div");
+        card.innerHTML = this.card(item);
+        this.div.appendChild(card);
+      });
+    } else {
+      console.error("Collection is not an array.");
     }
+  }
 
-    search(query) {
-        let cards = this.div.getElementsByClassName("card");
-        for (let card of cards) {
-            let context = card.textContent.toLowerCase();
-            card.style.display = context.includes(query) ? "block" : "none";
-        }
-    }
+  card(item) {
+    return `<p>Override this method in a subclass.</p>`;
+  }
+
+  search(query) {
+    const lowerCaseQuery = query.toLowerCase();
+    Array.from(this.div.children).forEach((item) => {
+      item.style.display = item.textContent
+        .toLowerCase()
+        .includes(lowerCaseQuery)
+        ? "block"
+        : "none";
+    });
+  }
+
+  sort(compareFunction) {
+    this.collection.sort(compareFunction);
+    this.display();
+  }
 }
