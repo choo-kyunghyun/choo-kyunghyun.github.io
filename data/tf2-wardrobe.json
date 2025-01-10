@@ -78,5 +78,29 @@
             "Airborne Attire",
             "Blizzard Britches"
         ]
+    },
+    {
+        "img": "/images/tf2/tf2-fashion-10.png",
+        "items": [
+            "Ball-Kicking Boots",
+            "Backwards Ballcap",
+            "Team Player"
+        ]
+    },
+    {
+        "img": "/images/tf2/tf2-fashion-11.png",
+        "items": [
+            "Nuke",
+            "Tsar Platinum",
+            "Gone Commando"
+        ]
+    },
+    {
+        "img": "/images/tf2/tf2-fashion-12.png",
+        "items": [
+            "Sengoku Scorcher",
+            "Legendary Lid",
+            "Hook, Line, and Cinder"
+        ]
     }
 ]

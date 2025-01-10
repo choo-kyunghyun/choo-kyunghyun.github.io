@@ -28,7 +28,7 @@ class Playlist extends Showcase {
           <p>${item.duration_string}</p>
           <p><a href="${
             item.url
-          }" target="_blank"><img class="icon" src="/images/youtube-music-icon.svg" alt="YouTube Music"></a></p>
+          }" target="_blank"><img class="icon" src="/images/play.svg" alt="YouTube Music"></a></p>
           <p style="display: none;">${tags}</p>
         `;
   }

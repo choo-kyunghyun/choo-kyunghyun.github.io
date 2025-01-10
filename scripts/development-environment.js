@@ -2,31 +2,37 @@
 
 import { Showcase } from "/scripts/showcase.js";
 
-class ItemShowcase extends Showcase {
+class DevelopmentEnvironment extends Showcase {
   constructor(div, file) {
     super(div, file);
   }
 
   display() {
-    this.collection.sort((a, b) => a.name.localeCompare(b.name));
-    super.display();
+    this.div.innerHTML = "";
+    Object.entries(this.collection).forEach(([key, items]) => {
+      this.div.innerHTML += `<h2>${key}</h2>`;
+      const subDiv = document.createElement("div");
+      subDiv.classList.add("container");
+      this.div.appendChild(subDiv);
+      items.sort((a, b) => a.name.localeCompare(b.name));
+      items.forEach((item) => {
+        const card = document.createElement("div");
+        card.innerHTML = this.card(item);
+        subDiv.appendChild(card);
+      });
+    });
   }
 
   card(item) {
     return `
-          <h3>${item.name}</h3>
-          ${item.description ? `<p>${item.description}</p>` : ""}
-        `;
+      <h3>${item.name}</h3>
+      ${item.description ? `<p>${item.description}</p>` : ""}
+    `;
   }
 }
 
-const hardware = document.getElementById("hardware");
-const software = document.getElementById("software");
-const hardwareInstance = new ItemShowcase(
-  hardware,
-  hardware.getAttribute("data-file")
-);
-const softwareInstance = new ItemShowcase(
-  software,
-  software.getAttribute("data-file")
+const developmentEnvironment = document.getElementById("development-environment");
+const developmentEnvironmentInstance = new DevelopmentEnvironment(
+  developmentEnvironment,
+  developmentEnvironment.getAttribute("data-file")
 );
