@@ -14,11 +14,11 @@
     <main>
       <h2>Playlists</h2>
       <select id="playlists">
-        <option value="/data/playlist-diamond.json">Diamond</option>
-        <option value="/data/playlist-gold.json">Gold</option>
-        <option value="/data/playlist-sapphire.json">Sapphire</option>
-        <option value="/data/playlist-silver.json">Silver</option>
-        <option value="/data/playlist-candy.json">Candy</option>
+        <option value="/data/playlists/playlist-diamond.json">Diamond</option>
+        <option value="/data/playlists/playlist-gold.json">Gold</option>
+        <option value="/data/playlists/playlist-sapphire.json">Sapphire</option>
+        <option value="/data/playlists/playlist-silver.json">Silver</option>
+        <option value="/data/playlists/playlist-candy.json">Candy</option>
       </select>
       <p>
         <input
@@ -27,12 +27,27 @@
           autocomplete="off"
           placeholder="Search" />
       </p>
-      <div class="container" id="playlist"></div>
+      <div id="playlist"></div>
     </main>
-    <footer>
-      <p>&copy; Choo&nbsp;Kyunghyun</p>
-    </footer>
-    <script type="module" src="/scripts/playlists.js"></script>
+    <footer><p>&copy; Choo&nbsp;Kyunghyun</p></footer>
+    <script src="/scripts/content-loader.js"></script>
+    <script>
+      const playlists = document.getElementById("playlists");
+      const playlist = document.getElementById("playlist");
+      playlists.addEventListener("change", (event) => {
+        playlist.innerHTML = "";
+        ContentLoader.load(event.target.value, playlist, "channel");
+      });
+      document
+        .getElementById("search")
+        .addEventListener("input", (event) =>
+          ContentLoader.search(
+            event.target.value,
+            document.querySelector(".box")
+          )
+        );
+      ContentLoader.load(playlists.value, playlist);
+    </script>
     <noscript>Please enable JavaScript to view this page.</noscript>
   </body>
 </html>

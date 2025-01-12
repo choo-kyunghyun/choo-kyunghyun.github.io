@@ -1,20 +1,54 @@
 {
-    "2024": {
-        "1": {
-            "31": [
-                {
-                    "title": "Spinning Box",
-                    "description": "Spinning box is released on the Google Play"
+  "header": {
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "tag": "div",
+      "data": {
+        "root": [
+          {
+            "tag": "div",
+            "attributes": {
+              "class": "alert"
+            },
+            "children": [
+              {
+                "tag": "h3",
+                "textContent": "${date}",
+                "attributes": {
+                  "style": "width: 8rem;"
                 }
+              },
+              {
+                "tag": "div",
+                "children": [
+                  {
+                    "tag": "h4",
+                    "textContent": "${title}"
+                  },
+                  {
+                    "tag": "p",
+                    "textContent": "${description}"
+                  }
+                ]
+              }
             ]
-        },
-        "6": {
-            "23": [
-                {
-                    "title": "choo-kyunghyun.github.io",
-                    "description": "Initial commit of my personal website"
-                }
-            ]
-        }
+          }
+        ],
+        "items": [
+          {
+            "date": "2024-01-31",
+            "title": "Spinning Box",
+            "description": "Spinning box is released on the Google Play"
+          },
+          {
+            "date": "2024-06-23",
+            "title": "choo-kyunghyun.github.io",
+            "description": "Initial commit of my personal website"
+          }
+        ]
+      }
     }
+  ]
 }

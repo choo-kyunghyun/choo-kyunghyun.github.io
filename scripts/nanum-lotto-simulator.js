@@ -69,7 +69,7 @@ class Lotto {
   export(jackpot, bonus) {
     let serial = document.createElement("span");
     serial.style.padding = "1rem";
-    serial.classList.add("container");
+    serial.classList.add("box");
 
     this.numbers.forEach((num) => {
       let number = document.createElement("span");
@@ -95,7 +95,7 @@ class Jackpot extends Lotto {
   export() {
     let serial = document.createElement("span");
     serial.style.padding = "1rem";
-    serial.classList.add("container");
+    serial.classList.add("box");
 
     this.numbers.forEach((num) => {
       let number = document.createElement("span");

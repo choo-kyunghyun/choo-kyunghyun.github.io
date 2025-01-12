@@ -13,12 +13,16 @@
     </header>
     <main>
       <h2>Timeline</h2>
-      <div id="timeline" data-file="/data/timeline.json"></div>
+      <div id="timeline"></div>
     </main>
-    <footer>
-      <p>&copy; Choo&nbsp;Kyunghyun</p>
-    </footer>
-    <script src="/scripts/timeline.js"></script>
+    <footer><p>&copy; Choo&nbsp;Kyunghyun</p></footer>
+    <script src="/scripts/content-loader.js"></script>
+    <script>
+      ContentLoader.load(
+        "/data/timeline.json",
+        document.getElementById("timeline")
+      );
+    </script>
     <noscript>Please enable JavaScript to view this page.</noscript>
   </body>
 </html>

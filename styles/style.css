@@ -65,14 +65,14 @@ button {
   cursor: pointer;
 }
 
-.container {
+.box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.container > div {
+.box > div {
   background-color: var(--color-border);
   border-radius: 0.5rem;
   width: 320px;
