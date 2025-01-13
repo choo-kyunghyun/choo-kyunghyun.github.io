@@ -16,15 +16,21 @@
               {
                 "tag": "div",
                 "attributes": {
-                  "style": "background-image: url(${thumbnail}); background-position: center; background-size: cover; width: 320px; height: 320px; border-radius: 0.5rem 0.5rem 0 0;"
-                }
+                  "class": "cover"
+                },
+                "children": [
+                  {
+                    "tag": "img",
+                    "attributes": {
+                      "src": "${thumbnail}",
+                      "alt": "${title}"
+                    }
+                  }
+                ]
               },
               {
-                "tag": "p",
-                "textContent": "${title}",
-                "attributes": {
-                  "style": "font-weight: bold;"
-                }
+                "tag": "h4",
+                "textContent": "${title}"
               },
               {
                 "tag": "p",
@@ -64,7 +70,7 @@
                 "tag": "p",
                 "textContent": "${tags}",
                 "attributes": {
-                  "style": "display: none;"
+                  "class": "hidden"
                 }
               }
             ]

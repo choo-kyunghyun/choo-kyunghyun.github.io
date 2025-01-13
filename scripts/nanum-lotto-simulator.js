@@ -38,17 +38,16 @@ class Lotto {
   }
 
   ball(num, backgroundColor) {
-    return `
-      <div style="
-        background-color: ${backgroundColor};
-        color: #ffffff;
-        width: 3rem;
-        height: 3rem;
-        border-radius: 50%;
-        align-content: center;
-        font-size: 1.5rem";
-      >${num}</div>
-    `;
+    const ball = document.createElement("span");
+    ball.style.backgroundColor = backgroundColor;
+    ball.style.color = "#ffffff";
+    ball.style.width = "3rem";
+    ball.style.height = "3rem";
+    ball.style.borderRadius = "50%";
+    ball.style.alignContent = "center";
+    ball.style.fontSize = "1.5rem";
+    ball.textContent = num;
+    return ball;
   }
 
   rank() {
@@ -67,21 +66,22 @@ class Lotto {
   }
 
   export(jackpot, bonus) {
-    let serial = document.createElement("span");
+    const serial = document.createElement("span");
     serial.style.padding = "1rem";
     serial.classList.add("box");
 
     this.numbers.forEach((num) => {
-      let number = document.createElement("span");
-      number.innerHTML = this.ball(
+      const number = this.ball(
         num,
         jackpot.includes(num) || bonus === num ? this.colorize(num) : "#333333"
       );
       serial.appendChild(number);
     });
 
-    let matched = document.createElement("span");
-    matched.innerHTML = `<div style="font-size: 1.5rem; margin-top: 0.45rem">${this.rank()}</div>`;
+    const matched = document.createElement("span");
+    matched.style.fontSize = "1.5rem";
+    matched.style.marginTop = "0.45rem";
+    matched.textContent = this.rank();
     serial.appendChild(matched);
     return serial;
   }
@@ -93,22 +93,21 @@ class Jackpot extends Lotto {
   }
 
   export() {
-    let serial = document.createElement("span");
+    const serial = document.createElement("span");
     serial.style.padding = "1rem";
     serial.classList.add("box");
 
     this.numbers.forEach((num) => {
-      let number = document.createElement("span");
-      number.innerHTML = this.ball(num, this.colorize(num));
+      const number = this.ball(num, this.colorize(num));
       serial.appendChild(number);
     });
 
-    let plus = document.createElement("span");
-    plus.innerHTML = `<div style="font-size: 2rem;">+</div>`;
+    const plus = document.createElement("span");
+    plus.style.fontSize = "2rem";
+    plus.textContent = "+";
     serial.appendChild(plus);
 
-    let bonus = document.createElement("span");
-    bonus.innerHTML = this.ball(this.bonus, this.colorize(this.bonus));
+    const bonus = this.ball(this.bonus, this.colorize(this.bonus));
     serial.appendChild(bonus);
     return serial;
   }
@@ -118,11 +117,11 @@ const output = document.getElementById("output");
 const count = document.getElementById("count");
 
 document.getElementById("check").addEventListener("click", () => {
-  output.innerHTML = "";
+  output.replaceChildren();
   const win = new Jackpot();
   output.appendChild(win.export());
   const lottos = Array.from({ length: count.value }, () => {
-    let lotto = new Lotto();
+    const lotto = new Lotto();
     lotto.check(win.numbers, win.bonus);
     return lotto;
   });

@@ -62,3 +62,33 @@ class ContentLoader {
     });
   }
 }
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const elements = document.querySelectorAll("[data-content]");
+  elements.forEach(async (element) => {
+    await ContentLoader.load(element.dataset.content, element);
+  });
+
+  const sources = document.querySelectorAll("[data-target]");
+  sources.forEach(async (source) => {
+    source.addEventListener("change", async () => {
+      const targets = document.querySelectorAll(source.dataset.target);
+      targets.forEach(async (target) => {
+        target.replaceChildren();
+        await ContentLoader.load(source.value, target);
+      });
+    });
+  });
+
+  const search = document.querySelectorAll("[data-search]");
+  search.forEach((search) => {
+    search.addEventListener("input", () => {
+      const targets = document.querySelectorAll(
+        String(search.dataset.search) + " > .box"
+      );
+      targets.forEach((target) => {
+        ContentLoader.search(search.value, target);
+      });
+    });
+  });
+});

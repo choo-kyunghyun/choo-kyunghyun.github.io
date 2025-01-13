@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; child-src 'none'; img-src 'self' https://i.ytimg.com" />
     <title>Playlists</title>
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
@@ -13,7 +16,7 @@
     </header>
     <main>
       <h2>Playlists</h2>
-      <select id="playlists">
+      <select data-target="#playlist">
         <option value="/data/playlists/playlist-diamond.json">Diamond</option>
         <option value="/data/playlists/playlist-gold.json">Gold</option>
         <option value="/data/playlists/playlist-sapphire.json">Sapphire</option>
@@ -23,31 +26,16 @@
       <p>
         <input
           type="text"
-          id="search"
           autocomplete="off"
-          placeholder="Search" />
+          placeholder="Search"
+          data-search="#playlist" />
       </p>
-      <div id="playlist"></div>
+      <div
+        id="playlist"
+        data-content="/data/playlists/playlist-diamond.json"></div>
     </main>
     <footer><p>&copy; Choo&nbsp;Kyunghyun</p></footer>
     <script src="/scripts/content-loader.js"></script>
-    <script>
-      const playlists = document.getElementById("playlists");
-      const playlist = document.getElementById("playlist");
-      playlists.addEventListener("change", (event) => {
-        playlist.innerHTML = "";
-        ContentLoader.load(event.target.value, playlist, "channel");
-      });
-      document
-        .getElementById("search")
-        .addEventListener("input", (event) =>
-          ContentLoader.search(
-            event.target.value,
-            document.querySelector(".box")
-          )
-        );
-      ContentLoader.load(playlists.value, playlist);
-    </script>
     <noscript>Please enable JavaScript to view this page.</noscript>
   </body>
 </html>

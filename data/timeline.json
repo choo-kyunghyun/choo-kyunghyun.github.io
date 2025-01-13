@@ -15,10 +15,7 @@
             "children": [
               {
                 "tag": "h3",
-                "textContent": "${date}",
-                "attributes": {
-                  "style": "width: 8rem;"
-                }
+                "textContent": "${date}"
               },
               {
                 "tag": "div",

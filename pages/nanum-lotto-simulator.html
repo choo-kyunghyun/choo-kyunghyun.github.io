@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nanum Lotto Simulator</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; child-src 'none';" />
+    <title>Lottery</title>
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
@@ -15,7 +18,13 @@
       <h2>Lotto</h2>
       <p>
         <label for="count">Count</label>
-        <input type="number" id="count" value="5" min="1" max="1000" />
+        <input
+          type="number"
+          id="count"
+          value="5"
+          min="1"
+          max="1000"
+          autocomplete="off" />
       </p>
       <p><button id="check">Check</button></p>
       <div id="output"></div>

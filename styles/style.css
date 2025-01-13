@@ -100,11 +100,35 @@ button {
   text-align: left;
 }
 
+.hidden {
+  display: none;
+}
+
+.cover {
+  width: 320px;
+  height: 320px;
+  border-radius: 0.5rem 0.5rem 0 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 @media (prefers-color-scheme: light) {
   body {
     --color-surface: #f6f6f6;
     --color-on-surface: #262626;
     --color-highlight: #5e0ed6;
     --color-border: #e6e6e6;
+  }
+
+  .logo,
+  .icon {
+    filter: invert(1);
   }
 }
