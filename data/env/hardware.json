@@ -1,0 +1,149 @@
+{
+  "header": {
+    "title": "Hardware",
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": "box"
+      },
+      "data": {
+        "root": [
+          {
+            "tag": "div",
+            "children": [
+              {
+                "tag": "h3",
+                "textContent": "${name}"
+              },
+              {
+                "tag": "p",
+                "textContent": "${description}"
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "name": "Fractal Design Terra",
+            "description": "Case"
+          },
+          {
+            "name": "ASUS ROG STRIX B760-I GAMING WIFI",
+            "description": "Motherboard"
+          },
+          {
+            "name": "Intel® Core™ i7-13700 Processor",
+            "description": "CPU"
+          },
+          {
+            "name": "NVIDIA GeForce RTX 4070 Ti",
+            "description": "GPU"
+          },
+          {
+            "name": "G.SKILL DDR5 6000 CL30 RIPJAWS S5 J 64GB(32Gx2)",
+            "description": "RAM"
+          },
+          {
+            "name": "NVMe CT2000P5PSSD8",
+            "description": "SSD"
+          },
+          {
+            "name": "Samsung 970 EVO Plus 2TB",
+            "description": "SSD"
+          },
+          {
+            "name": "ASUS ROG LOKI SFX-L 750W PLATINUM",
+            "description": "PSU"
+          },
+          {
+            "name": "Thermalright AXP120-X67 ARGB",
+            "description": "Cooler"
+          },
+          {
+            "name": "RAZER SEIREN V2 X",
+            "description": "Microphone"
+          },
+          {
+            "name": "RAZER VIPER V2 PRO",
+            "description": "Mouse"
+          },
+          {
+            "name": "RAZER GIGANTUS V2",
+            "description": "Mousepad"
+          },
+          {
+            "name": "RAZER HUNTSMAN V2 TKL",
+            "description": "Keyboard"
+          },
+          {
+            "name": "Wooting UwU",
+            "description": "Keyboard"
+          },
+          {
+            "name": "WACOM INTUOS CTH-480",
+            "description": "Tablet"
+          },
+          {
+            "name": "Philips 279M1RV",
+            "description": "Monitor"
+          },
+          {
+            "name": "CPM1610IQ",
+            "description": "Portable Monitor"
+          },
+          {
+            "name": "ATH-M50x",
+            "description": "Headphones"
+          },
+          {
+            "name": "TRUTHEAR NOVA",
+            "description": "Earphone"
+          },
+          {
+            "name": "SMSL C200",
+            "description": "DAC"
+          },
+          {
+            "name": "Samsung Galaxy Book5 Pro 360",
+            "description": "Laptop"
+          },
+          {
+            "name": "Samsung Galaxy S25",
+            "description": "Smartphone"
+          },
+          {
+            "name": "Samsung Galaxy Fit3",
+            "description": "Smartwatch"
+          },
+          {
+            "name": "SONY WF-1000XM5",
+            "description": "Earphone"
+          },
+          {
+            "name": "SONY XB100",
+            "description": "Speaker"
+          },
+          {
+            "name": "ASUS ESD-T1A",
+            "description": "M.2 SSD Enclosure"
+          },
+          {
+            "name": "WD My Passport",
+            "description": "External HDD"
+          },
+          {
+            "name": "MIDIPLUS FOLDING PIANO 88",
+            "description": "Keyboard"
+          },
+          {
+            "name": "Nintendo Switch Pro Controller",
+            "description": "Controller"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "header": {
+    "title": "Games",
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": "box"
+      },
+      "data": {
+        "root": [
+          {
+            "tag": "div",
+            "children": [
+              {
+                "tag": "h3",
+                "textContent": "${title}"
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "a",
+                    "attributes": {
+                      "href": "${url}"
+                    },
+                    "children": [
+                      {
+                        "tag": "img",
+                        "attributes": {
+                          "class": "icon",
+                          "src": "/images/star.svg",
+                          "alt": "Download"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "title": "osu!",
+            "url": "https://osu.ppy.sh/"
+          },
+          {
+            "title": "Minecraft",
+            "url": "https://www.minecraft.net/"
+          }
+        ]
+      }
+    }
+  ]
+}
