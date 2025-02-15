@@ -39,7 +39,8 @@
                   {
                     "tag": "a",
                     "attributes": {
-                      "href": "${url}"
+                      "href": "${url}",
+                      "target": "_blank"
                     },
                     "children": [
                       {
