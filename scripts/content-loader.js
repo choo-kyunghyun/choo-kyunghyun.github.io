@@ -1,14 +1,21 @@
 "use strict";
 
-// TODO: Implement sorting function
 class ContentLoader {
-  static async load(file, parent) {
-    const data = await this.read(file);
+  static async file(file, parent) {
+    try {
+      const data = await this.read(file);
+      parent.appendChild(this.load(data));
+    } catch (error) {
+      console.error("Failed to load data from file:", file);
+    }
+  }
+
+  static load(data) {
     const fragment = document.createDocumentFragment();
     data.root.forEach((node) => {
       fragment.appendChild(this.build(node, null));
     });
-    parent.appendChild(fragment);
+    return fragment;
   }
 
   static search(rawQuery, parent) {
@@ -26,6 +33,7 @@ class ContentLoader {
       return await response.json();
     } catch (error) {
       console.error(error);
+      throw error;
     }
   }
 
@@ -61,34 +69,70 @@ class ContentLoader {
       return value instanceof Array ? value.join(", ") : value;
     });
   }
+
+  static async setup() {
+    const elements = document.querySelectorAll("[data-content]");
+    elements.forEach(async (element) => {
+      await ContentLoader.file(element.dataset.content, element);
+    });
+
+    const sources = document.querySelectorAll("[data-target]");
+    sources.forEach((source) => {
+      source.addEventListener("change", async () => {
+        const targets = document.querySelectorAll(source.dataset.target);
+        targets.forEach(async (target) => {
+          target.replaceChildren();
+          console.log(source.value, target);
+          await ContentLoader.file(source.value, target);
+        });
+      });
+    });
+
+    const search = document.querySelectorAll("[data-search]");
+    search.forEach((search) => {
+      search.addEventListener("input", () => {
+        const targets = document.querySelectorAll(
+          `${search.dataset.search} > .box`
+        );
+        targets.forEach((target) => {
+          ContentLoader.search(search.value, target);
+        });
+      });
+    });
+
+    const externals = document.querySelectorAll("[data-external]");
+    externals.forEach((external) => {
+      external.addEventListener("change", async () => {
+        const target = document.querySelector(external.dataset.external);
+        target.replaceChildren();
+        const reader = new FileReader();
+        reader.onload = async (e) => {
+          const data = JSON.parse(e.target.result);
+          target.appendChild(this.load(data));
+        };
+        reader.readAsText(external.files[0]);
+      });
+    });
+  }
+
+  static sort(parent, attribute, order = "asc") {
+    const fragment = document.createDocumentFragment();
+    const children = Array.from(parent.children);
+    children.sort((a, b) => {
+      const valueA = a.querySelector(`[data-${attribute}]`).textContent;
+      const valueB = b.querySelector(`[data-${attribute}]`).textContent;
+      return order === "asc"
+        ? valueA.localeCompare(valueB)
+        : valueB.localeCompare(valueA);
+    });
+    children.forEach((child) => {
+      fragment.appendChild(child);
+    });
+    parent.replaceChildren();
+    parent.appendChild(fragment);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const elements = document.querySelectorAll("[data-content]");
-  elements.forEach(async (element) => {
-    await ContentLoader.load(element.dataset.content, element);
-  });
-
-  const sources = document.querySelectorAll("[data-target]");
-  sources.forEach(async (source) => {
-    source.addEventListener("change", async () => {
-      const targets = document.querySelectorAll(source.dataset.target);
-      targets.forEach(async (target) => {
-        target.replaceChildren();
-        await ContentLoader.load(source.value, target);
-      });
-    });
-  });
-
-  const search = document.querySelectorAll("[data-search]");
-  search.forEach((search) => {
-    search.addEventListener("input", () => {
-      const targets = document.querySelectorAll(
-        String(search.dataset.search) + " > .box"
-      );
-      targets.forEach((target) => {
-        ContentLoader.search(search.value, target);
-      });
-    });
-  });
+  await ContentLoader.setup();
 });
