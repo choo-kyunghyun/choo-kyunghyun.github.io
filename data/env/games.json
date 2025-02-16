@@ -32,7 +32,7 @@
                         "tag": "img",
                         "attributes": {
                           "class": "icon",
-                          "src": "/images/star.svg",
+                          "src": "/images/download.svg",
                           "alt": "Download"
                         }
                       }
