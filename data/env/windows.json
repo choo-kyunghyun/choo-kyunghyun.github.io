@@ -9,21 +9,6 @@
       "attributes": {
         "class": "box"
       },
-      "children": [
-        {
-          "tag": "div",
-          "children": [
-            {
-              "tag": "h3",
-              "textContent": "Windows 11 Pro"
-            },
-            {
-              "tag": "p",
-              "textContent": "Microsoft"
-            }
-          ]
-        }
-      ],
       "data": {
         "root": [
           {
@@ -60,6 +45,10 @@
         ],
         "items": [
           {
+            "name": "Windows 11 Pro",
+            "url": "https://www.microsoft.com/ko-kr/software-download/windows11"
+          },
+          {
             "name": "7-Zip",
             "url": "https://www.7-zip.org/"
           },
@@ -94,10 +83,6 @@
           {
             "name": "GameMaker",
             "url": "https://gamemaker.io/"
-          },
-          {
-            "name": "Git",
-            "url": "https://git-scm.com/"
           },
           {
             "name": "GitHub Desktop",
@@ -177,19 +162,19 @@
           },
           {
             "name": "FFmpeg",
-            "link": "https://ffmpeg.org/"
+            "url": "https://ffmpeg.org/"
           },
           {
             "name": "ComfyUI",
-            "link": "https://github.com/comfyanonymous/ComfyUI"
+            "url": "https://github.com/comfyanonymous/ComfyUI"
           },
           {
             "name": "AudioCraft",
-            "link": "https://github.com/facebookresearch/audiocraft/"
+            "url": "https://github.com/facebookresearch/audiocraft/"
           },
           {
             "name": "sfxr",
-            "link": "https://www.drpetter.se/project_sfxr.html"
+            "url": "https://www.drpetter.se/project_sfxr.html"
           }
         ]
       }
