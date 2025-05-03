@@ -1,0 +1,156 @@
+{
+  "header": {
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "data": {
+        "root": [
+          {
+            "tag": "section",
+            "attributes": {
+              "class": "card"
+            },
+            "children": [
+              {
+                "tag": "h3",
+                "textContent": "${name}"
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "a",
+                    "attributes": {
+                      "href": "${url}",
+                      "target": "_blank"
+                    },
+                    "textContent": "Download"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "name": "Windows 11 Pro",
+            "url": "https://www.microsoft.com/ko-kr/software-download/windows11"
+          },
+          {
+            "name": "7-Zip",
+            "url": "https://www.7-zip.org/"
+          },
+          {
+            "name": "Android Studio",
+            "url": "https://developer.android.com/studio"
+          },
+          {
+            "name": "Aseprite",
+            "url": "https://github.com/aseprite/aseprite"
+          },
+          {
+            "name": "Audacity",
+            "url": "https://github.com/audacity/audacity"
+          },
+          {
+            "name": "Blender",
+            "url": "https://www.blender.org/"
+          },
+          {
+            "name": "CLIP STUDIO PAINT",
+            "url": "https://www.clipstudio.net/"
+          },
+          {
+            "name": "Copilot",
+            "url": "https://copilot.microsoft.com/"
+          },
+          {
+            "name": "GameMaker",
+            "url": "https://gamemaker.io/"
+          },
+          {
+            "name": "GitHub Desktop",
+            "url": "https://github.com/desktop/desktop"
+          },
+          {
+            "name": "Google Chrome",
+            "url": "https://www.google.com/chrome/"
+          },
+          {
+            "name": "Inkscape",
+            "url": "https://inkscape.org/"
+          },
+          {
+            "name": "Microsoft Office",
+            "url": "https://www.microsoft.com/ko-kr/microsoft-365"
+          },
+          {
+            "name": "Microsoft OneDrive",
+            "url": "https://www.microsoft.com/ko-kr/microsoft-365/onedrive/online-cloud-storage"
+          },
+          {
+            "name": "Microsoft To Do",
+            "url": "https://www.microsoft.com/ko-kr/microsoft-365/microsoft-to-do-list-app"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/"
+          },
+          {
+            "name": "Visual Studio",
+            "url": "https://visualstudio.microsoft.com/"
+          },
+          {
+            "name": "Node.js",
+            "url": "https://nodejs.org/"
+          },
+          {
+            "name": "NVIDIA App",
+            "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+          },
+          {
+            "name": "Python 3",
+            "url": "https://www.python.org/"
+          },
+          {
+            "name": "Razer Synapse 4",
+            "url": "https://www.razer.com/synapse-4"
+          },
+          {
+            "name": "Spine",
+            "url": "https://esotericsoftware.com/"
+          },
+          {
+            "name": "Steam",
+            "url": "https://store.steampowered.com/"
+          },
+          {
+            "name": "VEGAS Edit 20 Steam Edition",
+            "url": "https://store.steampowered.com/app/2070990"
+          },
+          {
+            "name": "WSL",
+            "url": "https://learn.microsoft.com/en-us/windows/wsl/install"
+          },
+          {
+            "name": "YouTube Music",
+            "url": "https://music.youtube.com/"
+          },
+          {
+            "name": "FFmpeg",
+            "url": "https://ffmpeg.org/"
+          },
+          {
+            "name": "ComfyUI",
+            "url": "https://github.com/comfyanonymous/ComfyUI"
+          },
+          {
+            "name": "sfxr",
+            "url": "https://www.drpetter.se/project_sfxr.html"
+          }
+        ]
+      }
+    }
+  ]
+}

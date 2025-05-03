@@ -4,26 +4,18 @@
   },
   "root": [
     {
-      "tag": "div",
       "data": {
         "root": [
           {
-            "tag": "div",
-            "attributes": {
-              "class": "alert"
-            },
+            "tag": "section",
             "children": [
               {
                 "tag": "h3",
                 "textContent": "${date}"
               },
               {
-                "tag": "h4",
-                "textContent": "${title}"
-              },
-              {
                 "tag": "p",
-                "textContent": "${description}"
+                "textContent": "${event}"
               }
             ]
           }
@@ -31,13 +23,7 @@
         "items": [
           {
             "date": "2024-01-31",
-            "title": "Spinning Box",
-            "description": "Spinning box is released on the Google Play"
-          },
-          {
-            "date": "2024-06-23",
-            "title": "choo-kyunghyun.github.io",
-            "description": "Initial commit of my personal website"
+            "event": "Spinning box is released on the Google Play"
           }
         ]
       }

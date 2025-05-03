@@ -1,0 +1,48 @@
+{
+  "header": {
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "data": {
+        "root": [
+          {
+            "tag": "section",
+            "attributes": {
+              "class": "card"
+            },
+            "children": [
+              {
+                "tag": "h3",
+                "textContent": "${title}"
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "a",
+                    "attributes": {
+                      "href": "${url}",
+                      "target": "_blank"
+                    },
+                    "textContent": "Download"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "title": "osu!",
+            "url": "https://osu.ppy.sh/"
+          },
+          {
+            "title": "Minecraft",
+            "url": "https://www.minecraft.net/"
+          }
+        ]
+      }
+    }
+  ]
+}

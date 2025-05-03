@@ -1,0 +1,180 @@
+{
+  "header": {
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "data": {
+        "root": [
+          {
+            "tag": "section",
+            "attributes": {
+              "class": "card"
+            },
+            "children": [
+              {
+                "tag": "h3",
+                "textContent": "${name}"
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "a",
+                    "attributes": {
+                      "href": "${url}",
+                      "target": "_blank"
+                    },
+                    "textContent": "Download"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "name": ".NET Install Tool",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime"
+          },
+          {
+            "name": "Black Formatter",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter"
+          },
+          {
+            "name": "C/C++",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools"
+          },
+          {
+            "name": "C/C++ Extension Pack",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"
+          },
+          {
+            "name": "C/C++ Themes",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-themes"
+          },
+          {
+            "name": "C#",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp"
+          },
+          {
+            "name": "C# Dev Kit",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit"
+          },
+          {
+            "name": "CMake Tools",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools"
+          },
+          {
+            "name": "GitHub Copilot",
+            "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot"
+          },
+          {
+            "name": "GitHub Copilot Chat",
+            "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat"
+          },
+          {
+            "name": "Hex Editor",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor"
+          },
+          {
+            "name": "IntelliCode",
+            "url": "https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode"
+          },
+          {
+            "name": "IntelliCode API Usage Examples",
+            "url": "https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples"
+          },
+          {
+            "name": "IntelliCode for C# Dev Kit",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp"
+          },
+          {
+            "name": "Jupyter",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter"
+          },
+          {
+            "name": "Jupyter Cell Tags",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-cell-tags"
+          },
+          {
+            "name": "Jupyter Keymap",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-keymap"
+          },
+          {
+            "name": "Jupyter Notebook Renderers",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers"
+          },
+          {
+            "name": "Jupyter Slide Show",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-slideshow"
+          },
+          {
+            "name": "Live Preview",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server"
+          },
+          {
+            "name": "Makefile Tools",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools"
+          },
+          {
+            "name": "Prettier - Code formatter",
+            "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+          },
+          {
+            "name": "Pylance",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance"
+          },
+          {
+            "name": "Python",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-python.python"
+          },
+          {
+            "name": "Python Debugger",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy"
+          },
+          {
+            "name": "Remote - SSH",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh"
+          },
+          {
+            "name": "Remote - SSH: Editing Configuration Files",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit"
+          },
+          {
+            "name": "Remote Development",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack"
+          },
+          {
+            "name": "Remote Explorer",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer"
+          },
+          {
+            "name": "WSL",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl"
+          },
+          {
+            "name": "Docker",
+            "url": "https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker"
+          },
+          {
+            "name": "ESLint",
+            "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint"
+          },
+          {
+            "name": "GLSL Lint",
+            "url": "https://marketplace.visualstudio.com/items?itemName=dtoplak.vscode-glsllint"
+          },
+          {
+            "name": "Shader languages support for VS Code",
+            "url": "https://marketplace.visualstudio.com/items?itemName=slevesque.shader"
+          },
+          {
+            "name": "Stitch",
+            "url": "https://marketplace.visualstudio.com/items?itemName=bscotch.bscotch-stitch-vscode"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,13 +1,14 @@
 "use strict";
 
 class ContentLoader {
+  static #DATA_CONTENT = "data-content";
+  static #DATA_TARGET = "data-target";
+  static #DATA_SEARCH = "data-search";
+
   static async file(file, parent) {
-    try {
-      const data = await this.read(file);
-      parent.appendChild(this.load(data));
-    } catch (error) {
-      console.error("Failed to load data from file:", file);
-    }
+    const response = await fetch(file);
+    const data = JSON.parse(await response.text());
+    parent.replaceChildren(this.load(data));
   }
 
   static load(data) {
@@ -19,7 +20,7 @@ class ContentLoader {
   }
 
   static search(rawQuery, parent) {
-    const query = rawQuery.toLowerCase();
+    const query = rawQuery.toLowerCase().trim();
     Array.from(parent.children).forEach((node) => {
       node.style.display = node.textContent.toLowerCase().includes(query)
         ? "block"
@@ -27,17 +28,16 @@ class ContentLoader {
     });
   }
 
-  static async read(file) {
-    try {
-      const response = await fetch(file);
-      return await response.json();
-    } catch (error) {
-      console.error(error);
-      throw error;
-    }
-  }
-
   static build(node, item) {
+    if (!node.tag && node.data) {
+      const fragment = document.createDocumentFragment();
+      node.data.items.forEach((entry) => {
+        node.data.root.forEach((dataNode) => {
+          fragment.appendChild(this.build(dataNode, entry));
+        });
+      });
+      return fragment;
+    }
     const element = document.createElement(node.tag || "div");
     if (node.textContent) {
       element.textContent = this.renderTemplate(node.textContent, item);
@@ -64,75 +64,40 @@ class ContentLoader {
 
   static renderTemplate(text, data) {
     if (!data) return text;
-    return text.replace(/\$\{(.*?)\}/g, (match, p1) => {
-      const value = data[p1] || "";
+    return text.replace(/\$\{(.*?)\}/g, (match, key) => {
+      const value = data[key] || "";
       return value instanceof Array ? value.join(", ") : value;
     });
   }
 
   static async setup() {
-    const elements = document.querySelectorAll("[data-content]");
-    elements.forEach(async (element) => {
-      await ContentLoader.file(element.dataset.content, element);
+    const elements = document.querySelectorAll(`[${this.#DATA_CONTENT}]`);
+    elements.forEach((element) => {
+      this.file(element.dataset.content, element);
     });
 
-    const sources = document.querySelectorAll("[data-target]");
+    const sources = document.querySelectorAll(`[${this.#DATA_TARGET}]`);
     sources.forEach((source) => {
-      source.addEventListener("change", async () => {
+      source.addEventListener("click", async () => {
         const targets = document.querySelectorAll(source.dataset.target);
-        targets.forEach(async (target) => {
-          target.replaceChildren();
-          console.log(source.value, target);
-          await ContentLoader.file(source.value, target);
-        });
-      });
-    });
-
-    const search = document.querySelectorAll("[data-search]");
-    search.forEach((search) => {
-      search.addEventListener("input", () => {
-        const targets = document.querySelectorAll(
-          `${search.dataset.search} > .box`
+        await Promise.all(
+          [...targets].map((target) => this.file(source.value, target))
         );
+      });
+    });
+
+    const searches = document.querySelectorAll(`[${this.#DATA_SEARCH}]`);
+    searches.forEach((search) => {
+      search.addEventListener("input", () => {
+        const targets = document.querySelectorAll(search.dataset.search);
         targets.forEach((target) => {
-          ContentLoader.search(search.value, target);
+          this.search(search.value, target);
         });
       });
     });
-
-    const externals = document.querySelectorAll("[data-external]");
-    externals.forEach((external) => {
-      external.addEventListener("change", async () => {
-        const target = document.querySelector(external.dataset.external);
-        target.replaceChildren();
-        const reader = new FileReader();
-        reader.onload = async (e) => {
-          const data = JSON.parse(e.target.result);
-          target.appendChild(this.load(data));
-        };
-        reader.readAsText(external.files[0]);
-      });
-    });
-  }
-
-  static sort(parent, attribute, order = "asc") {
-    const fragment = document.createDocumentFragment();
-    const children = Array.from(parent.children);
-    children.sort((a, b) => {
-      const valueA = a.querySelector(`[data-${attribute}]`).textContent;
-      const valueB = b.querySelector(`[data-${attribute}]`).textContent;
-      return order === "asc"
-        ? valueA.localeCompare(valueB)
-        : valueB.localeCompare(valueA);
-    });
-    children.forEach((child) => {
-      fragment.appendChild(child);
-    });
-    parent.replaceChildren();
-    parent.appendChild(fragment);
   }
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-  await ContentLoader.setup();
+document.addEventListener("DOMContentLoaded", () => {
+  ContentLoader.setup();
 });

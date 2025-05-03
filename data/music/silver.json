@@ -1,0 +1,490 @@
+{
+  "header": {
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "data": {
+        "root": [
+          {
+            "tag": "section",
+            "attributes": {
+              "class": "card"
+            },
+            "children": [
+              {
+                "tag": "img",
+                "attributes": {
+                  "src": "${thumbnail}",
+                  "alt": "${title}"
+                }
+              },
+              {
+                "tag": "a",
+                "attributes": {
+                  "href": "${url}",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "tag": "h4",
+                    "textContent": "${title}"
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "textContent": "${album} (${release_year})"
+              },
+              {
+                "tag": "p",
+                "textContent": "${artists}"
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "title": "봄이 좋냐??",
+            "artists": [
+              "10cm"
+            ],
+            "album": "What The Spring??",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/_VEgjS3vsGo/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=_VEgjS3vsGo",
+            "channel": "10CM_Official"
+          },
+          {
+            "title": "폰서트",
+            "artists": [
+              "10cm"
+            ],
+            "album": "4.0",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/txi3VEdStJ4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=txi3VEdStJ4",
+            "channel": "10CM_Official"
+          },
+          {
+            "title": "Butter",
+            "artists": [
+              "BTS (방탄소년단)"
+            ],
+            "album": "Butter / Permission to Dance",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/NNCBq0JHXsU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=NNCBq0JHXsU",
+            "channel": "BANGTANTV"
+          },
+          {
+            "title": "1. 서울사람들",
+            "artists": [
+              "버스커버스커"
+            ],
+            "album": "서울사람들",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi/zXKAS3zIp1s/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=zXKAS3zIp1s",
+            "channel": "Busker Busker - Topic"
+          },
+          {
+            "title": "동경소녀",
+            "artists": [
+              "버스커 버스커"
+            ],
+            "album": "슈퍼스타K 3 Top11 Part 1",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi/JEyGjZU-THc/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=JEyGjZU-THc",
+            "channel": "Busker Busker - Topic"
+          },
+          {
+            "title": "꽃송이가",
+            "artists": [
+              "버스커 버스커 (Busker Busker)"
+            ],
+            "album": "버스커 버스커 1집",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi/HRadddyS5jg/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=HRadddyS5jg",
+            "channel": "Busker Busker - Topic"
+          },
+          {
+            "title": "벚꽃 엔딩",
+            "artists": [
+              "버스커 버스커 (Busker Busker)"
+            ],
+            "album": "버스커 버스커 1집",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi/KvthiAoGTfo/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=KvthiAoGTfo",
+            "channel": "Busker Busker - Topic"
+          },
+          {
+            "title": "여수 밤바다",
+            "artists": [
+              "버스커 버스커 (Busker Busker)"
+            ],
+            "album": "버스커 버스커 1집",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi/eO8w9xFArpE/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=eO8w9xFArpE",
+            "channel": "Busker Busker - Topic"
+          },
+          {
+            "title": "첫사랑",
+            "artists": [
+              "버스커 버스커 (Busker Busker)"
+            ],
+            "album": "버스커 버스커 1집",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi/_sQhN4dLC60/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=_sQhN4dLC60",
+            "channel": "Busker Busker - Topic"
+          },
+          {
+            "title": "1. 그댈 마주하는건 힘들어 (그마힘)",
+            "artists": [
+              "버스커 버스커 (Busker Busker)"
+            ],
+            "album": "버스커 버스커 1집 마무리",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi/SdahbIukU2g/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=SdahbIukU2g",
+            "channel": "Busker Busker - Topic"
+          },
+          {
+            "title": "4. 정말로 사랑한다면",
+            "artists": [
+              "버스커 버스커 (Busker Busker)"
+            ],
+            "album": "버스커 버스커 1집 마무리",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi/obd6sddVGp4/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=obd6sddVGp4",
+            "channel": "Busker Busker - Topic"
+          },
+          {
+            "title": "Chase Me (Chase Me)",
+            "artists": [
+              "Dreamcatcher"
+            ],
+            "album": "악몽",
+            "release_year": 2024,
+            "thumbnail": "https://i.ytimg.com/vi_webp/qYsg4D3zmIw/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=qYsg4D3zmIw",
+            "channel": "Dreamcatcher official"
+          },
+          {
+            "title": "Rooftop (옥탑방 (Rooftop))",
+            "artists": [
+              "N.Flying"
+            ],
+            "album": "FLY HIGH PROJECT #2 'Rooftop'",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi_webp/49cyaEDTd5I/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=49cyaEDTd5I",
+            "channel": "N.Flying (엔플라잉)"
+          },
+          {
+            "title": "Sequence",
+            "artists": [
+              "IZ*ONE"
+            ],
+            "album": "One-reeler / Act IV",
+            "release_year": 2020,
+            "thumbnail": "https://i.ytimg.com/vi/xond2K-7fjQ/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=xond2K-7fjQ",
+            "channel": "official IZ*ONE"
+          },
+          {
+            "title": "A Happy Song",
+            "artists": [
+              "Norazo"
+            ],
+            "album": "The First Album",
+            "release_year": 2005,
+            "thumbnail": "https://i.ytimg.com/vi/k41LV7s4f0k/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=k41LV7s4f0k",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "슈퍼맨",
+            "artists": [
+              "노라조 (Norazo)"
+            ],
+            "album": "Three GO",
+            "release_year": 2008,
+            "thumbnail": "https://i.ytimg.com/vi_webp/YEYDPgfY-bE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=YEYDPgfY-bE",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "카레",
+            "artists": [
+              "노라조 (Norazo)"
+            ],
+            "album": "환골탈태",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/rzV5p1mg4YU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=rzV5p1mg4YU",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "형",
+            "artists": [
+              "노라조 (Norazo)"
+            ],
+            "album": "환골탈태",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/aGvTFU7NP8I/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=aGvTFU7NP8I",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "판매왕",
+            "artists": [
+              "노라조 (Norazo)"
+            ],
+            "album": "전국제패",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/iv8lwsNg-kE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=iv8lwsNg-kE",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "사이다",
+            "artists": [
+              "노라조"
+            ],
+            "album": "사이다",
+            "release_year": 2018,
+            "thumbnail": "https://i.ytimg.com/vi_webp/8s-YL3gEiWU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=8s-YL3gEiWU",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "샤워",
+            "artists": [
+              "노라조"
+            ],
+            "album": "샤워",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi/vJk5zPVJRko/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=vJk5zPVJRko",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "빵",
+            "artists": [
+              "노라조"
+            ],
+            "album": "빵",
+            "release_year": 2020,
+            "thumbnail": "https://i.ytimg.com/vi_webp/g973QwZnb1o/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=g973QwZnb1o",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "봉환아",
+            "artists": [
+              "노라조"
+            ],
+            "album": "철인왕후 OST Part.1",
+            "release_year": 2020,
+            "thumbnail": "https://i.ytimg.com/vi_webp/KCCHFGzzDCg/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=KCCHFGzzDCg",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "고민은 배송만 늦출 뿐",
+            "artists": [
+              "노라조"
+            ],
+            "album": "고민은 배송만 늦출 뿐",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/wOM1u9PbZps/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=wOM1u9PbZps",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "야채",
+            "artists": [
+              "노라조"
+            ],
+            "album": "야채",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/vXdBgTONux0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=vXdBgTONux0",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "A worker",
+            "artists": [
+              "Norazo"
+            ],
+            "album": "Worker needs some time alone",
+            "release_year": 2023,
+            "thumbnail": "https://i.ytimg.com/vi_webp/-MecBWP62Fw/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=-MecBWP62Fw",
+            "channel": "Official NORAZO"
+          },
+          {
+            "title": "나팔바지 (Napal Baji)",
+            "artists": [
+              "PSY"
+            ],
+            "album": "Psy 7th Album",
+            "release_year": null,
+            "thumbnail": "https://i.ytimg.com/vi_webp/ewba14Qt6iM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ewba14Qt6iM",
+            "channel": "officialpsy"
+          },
+          {
+            "title": "뜨거운 안녕 (Passionate Goodbye) ft. 성시경",
+            "artists": [
+              "PSY"
+            ],
+            "album": "PSY SIX RULES Pt.1",
+            "release_year": null,
+            "thumbnail": "https://i.ytimg.com/vi_webp/BD3MbtUBuTM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=BD3MbtUBuTM",
+            "channel": "officialpsy"
+          },
+          {
+            "title": "예술이야 (It's Art)",
+            "artists": [
+              "PSY"
+            ],
+            "album": "Psyfive",
+            "release_year": null,
+            "thumbnail": "https://i.ytimg.com/vi/UtYBunDqp30/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=UtYBunDqp30",
+            "channel": "officialpsy"
+          },
+          {
+            "title": "챔피언",
+            "artists": [
+              "PSY"
+            ],
+            "album": "Psy 3",
+            "release_year": 2002,
+            "thumbnail": "https://i.ytimg.com/vi_webp/MSiKm3kZ7No/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=MSiKm3kZ7No",
+            "channel": "officialpsy"
+          },
+          {
+            "title": "아버지",
+            "artists": [
+              "PSY"
+            ],
+            "album": "REMAKE & MIX No. 18",
+            "release_year": 2005,
+            "thumbnail": "https://i.ytimg.com/vi_webp/hd_BfhSswAk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=hd_BfhSswAk",
+            "channel": "officialpsy"
+          },
+          {
+            "title": "That That (prod. & feat. SUGA of BTS)",
+            "artists": [
+              "PSY"
+            ],
+            "album": "PSY 9th",
+            "release_year": 2022,
+            "thumbnail": "https://i.ytimg.com/vi_webp/CmYocOH5l6c/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=CmYocOH5l6c",
+            "channel": "officialpsy"
+          },
+          {
+            "title": "어쩌다 마주친 그대",
+            "artists": [
+              "송골매"
+            ],
+            "album": "송골매 2집",
+            "release_year": 1982,
+            "thumbnail": "https://i.ytimg.com/vi_webp/VGq9b3gLXqk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=VGq9b3gLXqk",
+            "channel": "Song Gol Mae - Topic"
+          },
+          {
+            "title": "A Fool Moon Night",
+            "artists": [
+              "THE KOXX"
+            ],
+            "album": "ENTER",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/TgMyRjBdgsg/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=TgMyRjBdgsg",
+            "channel": "The Koxx - Topic"
+          },
+          {
+            "title": "혜성",
+            "artists": [
+              "윤하 (Younha/ユンナ)"
+            ],
+            "album": "혜성",
+            "release_year": 2007,
+            "thumbnail": "https://i.ytimg.com/vi_webp/ZnR0JiQGxRE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ZnR0JiQGxRE",
+            "channel": "YOUNHA OFFICIAL"
+          },
+          {
+            "title": "Oort Cloud (오르트구름)",
+            "artists": [
+              "YOUNHA",
+              "JEWNO",
+              "JEWNO",
+              "KZ",
+              "HOFF",
+              "danke(lalala studio)"
+            ],
+            "album": "YOUNHA 6th Album 'END THEORY'",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/58IEh6YkuzQ/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=58IEh6YkuzQ",
+            "channel": "YOUNHA OFFICIAL"
+          },
+          {
+            "title": "Event Horizon (사건의 지평선)",
+            "artists": [
+              "YOUNHA",
+              "JEWNO",
+              "SHAUN",
+              "YOUNHA",
+              "JEWNO",
+              "YOUNHA"
+            ],
+            "album": "YOUNHA 6th Album Repackage 'END THEORY : Final Edition'",
+            "release_year": 2022,
+            "thumbnail": "https://i.ytimg.com/vi_webp/j1uXcHwLhHM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=j1uXcHwLhHM",
+            "channel": "YOUNHA OFFICIAL"
+          },
+          {
+            "title": "karaoke (노래방에서)",
+            "artists": [
+              "Jang Beom June"
+            ],
+            "album": "Jang Beom June 3rd",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi_webp/zeIOhIpQ-oI/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=zeIOhIpQ-oI",
+            "channel": "장범준"
+          },
+          {
+            "title": "Cake House",
+            "artists": [
+              "텐시러브"
+            ],
+            "album": "Daybreak",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi/vYWe1VYv_rA/sddefault.jpg",
+            "url": "https://music.youtube.com/watch?v=vYWe1VYv_rA",
+            "channel": "텐시러브 - Topic"
+          }
+        ]
+      }
+    }
+  ]
+}

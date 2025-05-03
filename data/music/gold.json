@@ -1,0 +1,1405 @@
+{
+  "header": {
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "data": {
+        "root": [
+          {
+            "tag": "section",
+            "attributes": {
+              "class": "card"
+            },
+            "children": [
+              {
+                "tag": "img",
+                "attributes": {
+                  "src": "${thumbnail}",
+                  "alt": "${title}"
+                }
+              },
+              {
+                "tag": "a",
+                "attributes": {
+                  "href": "${url}",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "tag": "h4",
+                    "textContent": "${title}"
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "textContent": "${album} (${release_year})"
+              },
+              {
+                "tag": "p",
+                "textContent": "${artists}"
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "title": "Double Vision",
+            "artists": [
+              "3OH!3"
+            ],
+            "album": "Streets Of Gold",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/AulAGgkd1no/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=AulAGgkd1no",
+            "channel": "3OH!3"
+          },
+          {
+            "title": "Take on Me",
+            "artists": [
+              "a-ha"
+            ],
+            "album": "Hunting High and Low",
+            "release_year": 1985,
+            "thumbnail": "https://i.ytimg.com/vi/HzdD8kbDzZA/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=HzdD8kbDzZA",
+            "channel": "a-ha"
+          },
+          {
+            "title": "Mamma Mia",
+            "artists": [
+              "ABBA"
+            ],
+            "album": "Abba",
+            "release_year": 1975,
+            "thumbnail": "https://i.ytimg.com/vi_webp/KMViJKmAV4M/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=KMViJKmAV4M",
+            "channel": "ABBA"
+          },
+          {
+            "title": "Dancing Queen",
+            "artists": [
+              "ABBA"
+            ],
+            "album": "Arrival",
+            "release_year": 1976,
+            "thumbnail": "https://i.ytimg.com/vi_webp/YkLLcIKhJ64/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=YkLLcIKhJ64",
+            "channel": "ABBA"
+          },
+          {
+            "title": "Spooky, Scary Skeletons",
+            "artists": [
+              "Andrew Gold"
+            ],
+            "album": "Halloween Howls: Fun & Scary Music",
+            "release_year": 1996,
+            "thumbnail": "https://i.ytimg.com/vi_webp/7-D83f33pAE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=7-D83f33pAE",
+            "channel": "Andrew Gold"
+          },
+          {
+            "title": "He's a Demon, He's a Devil, He's a Doll",
+            "artists": [
+              "Betty Hutton"
+            ],
+            "album": "Presenting Betty Hutton",
+            "release_year": 1952,
+            "thumbnail": "https://i.ytimg.com/vi_webp/AGL51cPJSR0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=AGL51cPJSR0",
+            "channel": "Betty Hutton - Topic"
+          },
+          {
+            "title": "It's a Man (Alternate Take)",
+            "artists": [
+              "Betty Hutton"
+            ],
+            "album": "Presenting Betty Hutton",
+            "release_year": 1952,
+            "thumbnail": "https://i.ytimg.com/vi_webp/hoD_71BNHFc/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=hoD_71BNHFc",
+            "channel": "Betty Hutton - Topic"
+          },
+          {
+            "title": "Whole Lotta Shakin' Goin' On",
+            "artists": [
+              "Big Maybelle"
+            ],
+            "album": "Presenting Big Maybelle",
+            "release_year": 1953,
+            "thumbnail": "https://i.ytimg.com/vi_webp/z2aHARbW_8I/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=z2aHARbW_8I",
+            "channel": "Big Maybelle - Topic"
+          },
+          {
+            "title": "Pistol Packin' Mama",
+            "artists": [
+              "Bing Crosby",
+              "The Andrews Sisters",
+              "Vic Schoen & His Orchestra"
+            ],
+            "album": "Bing-His Legendary Years 1931-1957",
+            "release_year": 1943,
+            "thumbnail": "https://i.ytimg.com/vi_webp/9G2T0ad1-h4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=9G2T0ad1-h4",
+            "channel": "Bing Crosby"
+          },
+          {
+            "title": "Dear Hearts and Gentle People",
+            "artists": [
+              "Bob Crosby"
+            ],
+            "album": "Presenting The Bob Crosby Show",
+            "release_year": 1953,
+            "thumbnail": "https://i.ytimg.com/vi_webp/nJzFH-emqy8/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=nJzFH-emqy8",
+            "channel": "Bob Crosby  - Topic"
+          },
+          {
+            "title": "Happy Times",
+            "artists": [
+              "Bob Crosby"
+            ],
+            "album": "Presenting The Bob Crosby Show",
+            "release_year": 1953,
+            "thumbnail": "https://i.ytimg.com/vi_webp/xwQPsihhngM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=xwQPsihhngM",
+            "channel": "Bob Crosby  - Topic"
+          },
+          {
+            "title": "Way Back Home",
+            "artists": [
+              "Bob Crosby"
+            ],
+            "album": "Presenting The Bob Crosby Show",
+            "release_year": 1953,
+            "thumbnail": "https://i.ytimg.com/vi_webp/8wDCnmpIbFM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=8wDCnmpIbFM",
+            "channel": "Bob Crosby  - Topic"
+          },
+          {
+            "title": "Rasputin",
+            "artists": [
+              "Boney M."
+            ],
+            "album": "Nightflight to Venus",
+            "release_year": 1978,
+            "thumbnail": "https://i.ytimg.com/vi/5Z0dxsFmX7c/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=5Z0dxsFmX7c",
+            "channel": "Boney M."
+          },
+          {
+            "title": "Toxic",
+            "artists": [
+              "Britney Spears"
+            ],
+            "album": "In The Zone",
+            "release_year": 2003,
+            "thumbnail": "https://i.ytimg.com/vi_webp/tVdr_JWmnsA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=tVdr_JWmnsA",
+            "channel": "Britney Spears"
+          },
+          {
+            "title": "Just the Way You Are",
+            "artists": [
+              "Bruno Mars"
+            ],
+            "album": "Doo-Wops & Hooligans",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/wGUKBXpfU1o/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=wGUKBXpfU1o",
+            "channel": "Bruno Mars"
+          },
+          {
+            "title": "Marry You",
+            "artists": [
+              "Bruno Mars"
+            ],
+            "album": "Doo-Wops & Hooligans",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/nkz0M4TS7oA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=nkz0M4TS7oA",
+            "channel": "Bruno Mars"
+          },
+          {
+            "title": "The Lazy Song",
+            "artists": [
+              "Bruno Mars"
+            ],
+            "album": "Doo-Wops & Hooligans",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/sLRtf41L12A/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=sLRtf41L12A",
+            "channel": "Bruno Mars"
+          },
+          {
+            "title": "Treasure",
+            "artists": [
+              "Bruno Mars"
+            ],
+            "album": "Unorthodox Jukebox",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi/cy6Arnjp-hQ/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=cy6Arnjp-hQ",
+            "channel": "Bruno Mars"
+          },
+          {
+            "title": "24K Magic",
+            "artists": [
+              "Bruno Mars"
+            ],
+            "album": "24K Magic",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/r7-A9NqUjRI/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=r7-A9NqUjRI",
+            "channel": "Bruno Mars"
+          },
+          {
+            "title": "That's What I Like",
+            "artists": [
+              "Bruno Mars"
+            ],
+            "album": "24K Magic",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/JucvYrdSIcM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=JucvYrdSIcM",
+            "channel": "Bruno Mars"
+          },
+          {
+            "title": "Leave The Door Open",
+            "artists": [
+              "Bruno Mars",
+              "Anderson .Paak",
+              "Silk Sonic"
+            ],
+            "album": "An Evening With Silk Sonic",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/IYFqc9gk4qI/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=IYFqc9gk4qI",
+            "channel": "Bruno Mars"
+          },
+          {
+            "title": "Viva La Vida",
+            "artists": [
+              "Coldplay"
+            ],
+            "album": "Viva La Vida (Prospekt's March Edition)",
+            "release_year": 2008,
+            "thumbnail": "https://i.ytimg.com/vi_webp/3a-q7vPa-UU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=3a-q7vPa-UU",
+            "channel": "Coldplay"
+          },
+          {
+            "title": "Anything Goes",
+            "artists": [
+              "Cole Porter",
+              "Vince Giordano",
+              "The Nighthawks"
+            ],
+            "album": "It's De Lovely: The Authentic Cole Porter Collection",
+            "release_year": 2004,
+            "thumbnail": "https://i.ytimg.com/vi/dxCjpEc66Dw/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=dxCjpEc66Dw",
+            "channel": "Cole Porter - Topic"
+          },
+          {
+            "title": "Tunak Tunak Tun",
+            "artists": [
+              "Daler Mehndi"
+            ],
+            "album": "Tunak Tunak Tun",
+            "release_year": 1998,
+            "thumbnail": "https://i.ytimg.com/vi_webp/_T_MOxNGsks/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=_T_MOxNGsks",
+            "channel": "Daler Mehndi"
+          },
+          {
+            "title": "You Spin Me Round (Like a Record)",
+            "artists": [
+              "Dead Or Alive"
+            ],
+            "album": "You Spin Me Round",
+            "release_year": 1985,
+            "thumbnail": "https://i.ytimg.com/vi/BUYLdVeny5g/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=BUYLdVeny5g",
+            "channel": "deadoralivetv"
+          },
+          {
+            "title": "This Is America",
+            "artists": [
+              "Childish Gambino"
+            ],
+            "album": "This Is America",
+            "release_year": 2018,
+            "thumbnail": "https://i.ytimg.com/vi_webp/3P3w9Y50cxU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=3P3w9Y50cxU",
+            "channel": "Donald Glover"
+          },
+          {
+            "title": "Still D.R.E.",
+            "artists": [
+              "Dr. Dre",
+              "Snoop Dogg"
+            ],
+            "album": "2001",
+            "release_year": 1999,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Qeem6ZVr8Ic/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Qeem6ZVr8Ic",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "The Next Episode",
+            "artists": [
+              "Dr. Dre",
+              "Snoop Dogg"
+            ],
+            "album": "2001",
+            "release_year": 1999,
+            "thumbnail": "https://i.ytimg.com/vi_webp/nL2HPPHdPAA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=nL2HPPHdPAA",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "What's The Difference",
+            "artists": [
+              "Dr. Dre",
+              "Eminem",
+              "Xzibit"
+            ],
+            "album": "2001",
+            "release_year": 1999,
+            "thumbnail": "https://i.ytimg.com/vi_webp/-Ubyt7iWJ8Q/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=-Ubyt7iWJ8Q",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "Black Privilege",
+            "artists": [
+              "Dr. Dre"
+            ],
+            "album": "Black Privilege",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Pts7DOZ5axc/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Pts7DOZ5axc",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "Diamond Mind",
+            "artists": [
+              "Dr. Dre",
+              "Nipsey Hussle",
+              "Ty Dolla $ign"
+            ],
+            "album": "Diamond Mind",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/fuKaIsi8VIQ/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=fuKaIsi8VIQ",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "ETA",
+            "artists": [
+              "Dr. Dre",
+              "Snoop Dogg",
+              "Busta Rhymes",
+              "Anderson .Paak"
+            ],
+            "album": "ETA",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/pWDL-KbixaE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=pWDL-KbixaE",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "Fallin Up",
+            "artists": [
+              "Dr. Dre",
+              "Thurz",
+              "Cocoa Sarai"
+            ],
+            "album": "Fallin Up",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/41BeQ7oLeHI/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=41BeQ7oLeHI",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "Gospel",
+            "artists": [
+              "Dr. Dre",
+              "Eminem"
+            ],
+            "album": "Gospel",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/t-IYF3UnHbM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=t-IYF3UnHbM",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "The Scenic Route",
+            "artists": [
+              "Dr. Dre",
+              "Rick Ross",
+              "Anderson .Paak"
+            ],
+            "album": "The Scenic Route",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/2UBIN79T7m4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=2UBIN79T7m4",
+            "channel": "Dr. Dre"
+          },
+          {
+            "title": "September",
+            "artists": [
+              "Earth, Wind & Fire"
+            ],
+            "album": "The Best Of Earth, Wind & Fire Vol. 1",
+            "release_year": 1978,
+            "thumbnail": "https://i.ytimg.com/vi_webp/3cKtSlsYVEU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=3cKtSlsYVEU",
+            "channel": "Earth Wind & Fire"
+          },
+          {
+            "title": "Thinking out Loud",
+            "artists": [
+              "Ed Sheeran"
+            ],
+            "album": "x",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi/fdz_cabS9BU/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=fdz_cabS9BU",
+            "channel": "Ed Sheeran"
+          },
+          {
+            "title": "Shape of You",
+            "artists": [
+              "Ed Sheeran"
+            ],
+            "album": "Shape of You",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/xTvyyoF_LZY/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=xTvyyoF_LZY",
+            "channel": "Ed Sheeran"
+          },
+          {
+            "title": "Perfect",
+            "artists": [
+              "Ed Sheeran"
+            ],
+            "album": "÷",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/ORrFJ63nlcA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ORrFJ63nlcA",
+            "channel": "Ed Sheeran"
+          },
+          {
+            "title": "Bad Habits",
+            "artists": [
+              "Ed Sheeran"
+            ],
+            "album": "Bad Habits",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/hJWSZDJb-W4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=hJWSZDJb-W4",
+            "channel": "Ed Sheeran"
+          },
+          {
+            "title": "Uranium Fever",
+            "artists": [
+              "Elton Britt"
+            ],
+            "album": "Presenting Elton Britt",
+            "release_year": 1955,
+            "thumbnail": "https://i.ytimg.com/vi_webp/wKVmhaSY1X8/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=wKVmhaSY1X8",
+            "channel": "Elton Britt - Topic"
+          },
+          {
+            "title": "The Name Of The Game",
+            "artists": [
+              "The Fans"
+            ],
+            "album": "We Are The Champions (Olé Olé Olé Olé) - The Name Of The Game",
+            "release_year": 1994,
+            "thumbnail": "https://i.ytimg.com/vi/TSp9BkI16eA/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=TSp9BkI16eA",
+            "channel": "F.A.N.S. - Topic"
+          },
+          {
+            "title": "HandClap",
+            "artists": [
+              "Fitz and The Tantrums"
+            ],
+            "album": "Fitz and The Tantrums",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/tbyWV7ccaeY/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=tbyWV7ccaeY",
+            "channel": "Fitz and the Tantrums"
+          },
+          {
+            "title": "Lemon Tree",
+            "artists": [
+              "Fools Garden"
+            ],
+            "album": "Lemon Tree",
+            "release_year": 1995,
+            "thumbnail": "https://i.ytimg.com/vi_webp/enPg09IpUjU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=enPg09IpUjU",
+            "channel": "Fools Garden"
+          },
+          {
+            "title": "Don't Stop (Color on the Walls)",
+            "artists": [
+              "Foster The People"
+            ],
+            "album": "Torches",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi/VONvSk9qEu8/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=VONvSk9qEu8",
+            "channel": "FosterThePeople"
+          },
+          {
+            "title": "Runaway (U & I)",
+            "artists": [
+              "Galantis"
+            ],
+            "album": "Pharmacy",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi_webp/h8rxsShxan4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=h8rxsShxan4",
+            "channel": "Galantis"
+          },
+          {
+            "title": "No Money",
+            "artists": [
+              "Galantis"
+            ],
+            "album": "The Aviary",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/LsCHjlYw2oM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=LsCHjlYw2oM",
+            "channel": "Galantis"
+          },
+          {
+            "title": "American Idiot",
+            "artists": [
+              "Green Day"
+            ],
+            "album": "American Idiot",
+            "release_year": 2004,
+            "thumbnail": "https://i.ytimg.com/vi/VyV54YwPAkk/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=VyV54YwPAkk",
+            "channel": "Green Day"
+          },
+          {
+            "title": "21 Guns",
+            "artists": [
+              "Green Day"
+            ],
+            "album": "21st Century Breakdown",
+            "release_year": 2009,
+            "thumbnail": "https://i.ytimg.com/vi/U0XcqF7rqHk/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=U0XcqF7rqHk",
+            "channel": "Green Day"
+          },
+          {
+            "title": "Radioactive",
+            "artists": [
+              "Imagine Dragons"
+            ],
+            "album": "Night Visions",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi_webp/R_BO8C05XLA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=R_BO8C05XLA",
+            "channel": "ImagineDragons"
+          },
+          {
+            "title": "Believer",
+            "artists": [
+              "Imagine Dragons"
+            ],
+            "album": "Evolve",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Kx7B-XvmFtE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Kx7B-XvmFtE",
+            "channel": "ImagineDragons"
+          },
+          {
+            "title": "Thunder",
+            "artists": [
+              "Imagine Dragons"
+            ],
+            "album": "Evolve",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/9ssQKlLxBdQ/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=9ssQKlLxBdQ",
+            "channel": "ImagineDragons"
+          },
+          {
+            "title": "Whatever It Takes",
+            "artists": [
+              "Imagine Dragons"
+            ],
+            "album": "Evolve",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/cnRB2CgUpSw/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=cnRB2CgUpSw",
+            "channel": "ImagineDragons"
+          },
+          {
+            "title": "Bones",
+            "artists": [
+              "Imagine Dragons"
+            ],
+            "album": "Bones",
+            "release_year": 2022,
+            "thumbnail": "https://i.ytimg.com/vi_webp/V2SVRJ6dcE4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=V2SVRJ6dcE4",
+            "channel": "ImagineDragons"
+          },
+          {
+            "title": "I'm Yours",
+            "artists": [
+              "Jason Mraz"
+            ],
+            "album": "I'm Yours",
+            "release_year": 2008,
+            "thumbnail": "https://i.ytimg.com/vi_webp/A93OQy81TYs/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=A93OQy81TYs",
+            "channel": "Jason Mraz"
+          },
+          {
+            "title": "Take Me Home, Country Roads (Original Version)",
+            "artists": [
+              "John Denver"
+            ],
+            "album": "Poems, Prayers and Promises",
+            "release_year": 1971,
+            "thumbnail": "https://i.ytimg.com/vi/c0dvabcWVo0/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=c0dvabcWVo0",
+            "channel": "John Denver"
+          },
+          {
+            "title": "Ac-Cent-Tchu-Ate the Positive",
+            "artists": [
+              "Johnny Mercer"
+            ],
+            "album": "Presenting Johnny Mercer",
+            "release_year": 1934,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Zd1qRSmwXmE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Zd1qRSmwXmE",
+            "channel": "Johnny Mercer\\The Mellowares - Topic"
+          },
+          {
+            "title": "Personality",
+            "artists": [
+              "Johnny Mercer"
+            ],
+            "album": "Presenting Johnny Mercer",
+            "release_year": 1934,
+            "thumbnail": "https://i.ytimg.com/vi_webp/vR-mTgLUGZk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=vR-mTgLUGZk",
+            "channel": "Johnny Mercer\\The Mellowares - Topic"
+          },
+          {
+            "title": "Vodka",
+            "artists": [
+              "Korpiklaani"
+            ],
+            "album": "Karkelo",
+            "release_year": 2009,
+            "thumbnail": "https://i.ytimg.com/vi_webp/WOjDydbww4I/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=WOjDydbww4I",
+            "channel": "Korpiklaani"
+          },
+          {
+            "title": "Funkytown",
+            "artists": [
+              "Lipps Inc."
+            ],
+            "album": "Mouth To Mouth",
+            "release_year": 1979,
+            "thumbnail": "https://i.ytimg.com/vi_webp/OAC4ItP0xWM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=OAC4ItP0xWM",
+            "channel": "Lipps Inc."
+          },
+          {
+            "title": "Rasputin",
+            "artists": [
+              "Majestic",
+              "Boney M."
+            ],
+            "album": "Rasputin",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Y2_hKPShcpY/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Y2_hKPShcpY",
+            "channel": "majesticonline"
+          },
+          {
+            "title": "All I Want for Christmas Is You",
+            "artists": [
+              "Mariah Carey"
+            ],
+            "album": "Merry Christmas",
+            "release_year": 1994,
+            "thumbnail": "https://i.ytimg.com/vi/fRyhqobl0sk/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=fRyhqobl0sk",
+            "channel": "Mariah Carey"
+          },
+          {
+            "title": "Uptown Funk",
+            "artists": [
+              "Mark Ronson",
+              "Bruno Mars"
+            ],
+            "album": "I Love Paraisópolis - Vol. 2",
+            "release_year": 2015,
+            "thumbnail": "https://i.ytimg.com/vi_webp/rZmHYMQkLyA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=rZmHYMQkLyA",
+            "channel": "Mark Ronson"
+          },
+          {
+            "title": "Moves Like Jagger (Studio Recording From \"The Voice\" Performance)",
+            "artists": [
+              "Maroon 5",
+              "Christina Aguilera"
+            ],
+            "album": "Hands All Over",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/2UfIXzKXic0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=2UfIXzKXic0",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "Lucky Strike",
+            "artists": [
+              "Maroon 5"
+            ],
+            "album": "Overexposed",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi_webp/EBk-o5Rg5Ck/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=EBk-o5Rg5Ck",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "One More Night",
+            "artists": [
+              "Maroon 5"
+            ],
+            "album": "Overexposed",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi_webp/d_3voqjDxAg/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=d_3voqjDxAg",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "Payphone",
+            "artists": [
+              "Maroon 5",
+              "Wiz Khalifa"
+            ],
+            "album": "Overexposed",
+            "release_year": 2012,
+            "thumbnail": "https://i.ytimg.com/vi_webp/smKgVuSB18k/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=smKgVuSB18k",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "Animals",
+            "artists": [
+              "Maroon 5"
+            ],
+            "album": "V",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi_webp/5DF9aRuiOZo/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=5DF9aRuiOZo",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "Maps",
+            "artists": [
+              "Maroon 5"
+            ],
+            "album": "V",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi_webp/u6fQ9q9j-Qk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=u6fQ9q9j-Qk",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "Sugar",
+            "artists": [
+              "Maroon 5"
+            ],
+            "album": "V",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi_webp/wSOc5jmvF-k/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=wSOc5jmvF-k",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "What Lovers Do",
+            "artists": [
+              "Maroon 5",
+              "SZA"
+            ],
+            "album": "Red Pill Blues",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/0siKyXL_h08/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=0siKyXL_h08",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "Memories",
+            "artists": [
+              "Maroon 5"
+            ],
+            "album": "JORDI",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi_webp/lNilb-EaTOU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=lNilb-EaTOU",
+            "channel": "Maroon 5"
+          },
+          {
+            "title": "Lollipop",
+            "artists": [
+              "MIKA"
+            ],
+            "album": "Life In Cartoon Motion",
+            "release_year": 2007,
+            "thumbnail": "https://i.ytimg.com/vi_webp/gUQmUO98pHM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=gUQmUO98pHM",
+            "channel": "MIKA"
+          },
+          {
+            "title": "Blue Eyes",
+            "artists": [
+              "MIKA"
+            ],
+            "album": "The Boy Who Knew Too Much",
+            "release_year": 2009,
+            "thumbnail": "https://i.ytimg.com/vi_webp/torLad9DbUU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=torLad9DbUU",
+            "channel": "MIKA"
+          },
+          {
+            "title": "Teenagers",
+            "artists": [
+              "My Chemical Romance"
+            ],
+            "album": "The Black Parade",
+            "release_year": 2006,
+            "thumbnail": "https://i.ytimg.com/vi_webp/jLKOBJR5vHs/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=jLKOBJR5vHs",
+            "channel": "My Chemical Romance"
+          },
+          {
+            "title": "Welcome to the Black Parade",
+            "artists": [
+              "My Chemical Romance"
+            ],
+            "album": "The Black Parade",
+            "release_year": 2006,
+            "thumbnail": "https://i.ytimg.com/vi_webp/v_uncMEJkBc/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=v_uncMEJkBc",
+            "channel": "My Chemical Romance"
+          },
+          {
+            "title": "Orange Colored Sky",
+            "artists": [
+              "Nat King Cole"
+            ],
+            "album": "The Nat King Cole Story",
+            "release_year": 1961,
+            "thumbnail": "https://i.ytimg.com/vi_webp/ClIKt3ulioo/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ClIKt3ulioo",
+            "channel": "Nat King Cole"
+          },
+          {
+            "title": "L-O-V-E",
+            "artists": [
+              "Nat King Cole"
+            ],
+            "album": "L-O-V-E",
+            "release_year": 1964,
+            "thumbnail": "https://i.ytimg.com/vi/gZYtes1RO_w/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=gZYtes1RO_w",
+            "channel": "Nat King Cole"
+          },
+          {
+            "title": "All About You",
+            "artists": [
+              "McFly"
+            ],
+            "album": "Wonderland",
+            "release_year": 2005,
+            "thumbnail": "https://i.ytimg.com/vi_webp/gRjO2JJT3qk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=gRjO2JJT3qk",
+            "channel": "Official McFly"
+          },
+          {
+            "title": "One Thing",
+            "artists": [
+              "One Direction"
+            ],
+            "album": "Up All Night",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi/mpdIaUzG1RQ/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=mpdIaUzG1RQ",
+            "channel": "One Direction"
+          },
+          {
+            "title": "What Makes You Beautiful",
+            "artists": [
+              "One Direction"
+            ],
+            "album": "Up All Night",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi/d57qSDCxVA4/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=d57qSDCxVA4",
+            "channel": "One Direction"
+          },
+          {
+            "title": "Story of My Life",
+            "artists": [
+              "One Direction"
+            ],
+            "album": "Midnight Memories (Deluxe)",
+            "release_year": 2013,
+            "thumbnail": "https://i.ytimg.com/vi/8M3Vlnu_i3c/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=8M3Vlnu_i3c",
+            "channel": "One Direction"
+          },
+          {
+            "title": "Puff, the Magic Dragon",
+            "artists": [
+              "Peter, Paul and Mary"
+            ],
+            "album": "Moving",
+            "release_year": 1962,
+            "thumbnail": "https://i.ytimg.com/vi_webp/s26e_86-K0k/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=s26e_86-K0k",
+            "channel": "Peter, Paul & Mary - Topic"
+          },
+          {
+            "title": "Bohemian Rhapsody (Remastered 2011)",
+            "artists": [
+              "Queen"
+            ],
+            "album": "A Night At The Opera",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/bSnlKl_PoQU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=bSnlKl_PoQU",
+            "channel": "Queen Official"
+          },
+          {
+            "title": "Under Pressure (Remastered 2011)",
+            "artists": [
+              "Queen",
+              "David Bowie"
+            ],
+            "album": "Hot Space",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/MkQK83Tf9so/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=MkQK83Tf9so",
+            "channel": "Queen Official"
+          },
+          {
+            "title": "Don't Stop Me Now (Remastered 2011)",
+            "artists": [
+              "Queen"
+            ],
+            "album": "Jazz",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/ISqudnwua6I/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ISqudnwua6I",
+            "channel": "Queen Official"
+          },
+          {
+            "title": "We Are The Champions (Remastered 2011)",
+            "artists": [
+              "Queen"
+            ],
+            "album": "News Of The World",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Gk781Z0ErmA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Gk781Z0ErmA",
+            "channel": "Queen Official"
+          },
+          {
+            "title": "We Will Rock You (Remastered 2011)",
+            "artists": [
+              "Queen"
+            ],
+            "album": "News Of The World",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/tsTH9TpxU_Y/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=tsTH9TpxU_Y",
+            "channel": "Queen Official"
+          },
+          {
+            "title": "Another One Bites The Dust (Remastered 2011)",
+            "artists": [
+              "Queen"
+            ],
+            "album": "The Game",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/bdf_ll68Z8o/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=bdf_ll68Z8o",
+            "channel": "Queen Official"
+          },
+          {
+            "title": "Radio Ga Ga (Remastered 2011)",
+            "artists": [
+              "Queen"
+            ],
+            "album": "The Works",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/lWxQ55EsOVs/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=lWxQ55EsOVs",
+            "channel": "Queen Official"
+          },
+          {
+            "title": "Right Behind You Baby",
+            "artists": [
+              "Ray Smith"
+            ],
+            "album": "So Young / Right Behind You Baby",
+            "release_year": 1958,
+            "thumbnail": "https://i.ytimg.com/vi_webp/1obIcgIvyfA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=1obIcgIvyfA",
+            "channel": "Ray Smith - Topic"
+          },
+          {
+            "title": "Never Gonna Give You Up",
+            "artists": [
+              "Rick Astley"
+            ],
+            "album": "Whenever You Need Somebody",
+            "release_year": 1987,
+            "thumbnail": "https://i.ytimg.com/vi_webp/lYBUbBu4W08/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=lYBUbBu4W08",
+            "channel": "Rick Astley"
+          },
+          {
+            "title": "Butcher Pete, Pt. 2",
+            "artists": [
+              "Roy Brown"
+            ],
+            "album": "Presenting Roy Brown",
+            "release_year": 1900,
+            "thumbnail": "https://i.ytimg.com/vi_webp/FZY8CvXWfU4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=FZY8CvXWfU4",
+            "channel": "Roy Brown - Topic"
+          },
+          {
+            "title": "Good Rockin' Tonight (Alternate Take)",
+            "artists": [
+              "Roy Brown"
+            ],
+            "album": "Presenting Roy Brown",
+            "release_year": 1900,
+            "thumbnail": "https://i.ytimg.com/vi_webp/ik4gvCNGwSE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ik4gvCNGwSE",
+            "channel": "Roy Brown - Topic"
+          },
+          {
+            "title": "Mighty Mighty Man",
+            "artists": [
+              "Roy Brown"
+            ],
+            "album": "Forever Rock Around the Clock (Rock 'n'roll Dance)",
+            "release_year": 2000,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Oxts0A0gZN4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Oxts0A0gZN4",
+            "channel": "Roy Brown - Topic"
+          },
+          {
+            "title": "Butcher Pete",
+            "artists": [
+              "Roy Brown"
+            ],
+            "album": "Golden Decade - Music of My Life (Book 03)",
+            "release_year": 2009,
+            "thumbnail": "https://i.ytimg.com/vi/YLpZKBKPpGM/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=YLpZKBKPpGM",
+            "channel": "Roy Brown - Topic"
+          },
+          {
+            "title": "Scatman (ski-ba-bop-ba-dop-bop)",
+            "artists": [
+              "Scatman John"
+            ],
+            "album": "Scatman's World",
+            "release_year": 1995,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Eht9W25tDZo/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Eht9W25tDZo",
+            "channel": "Scatman John Official YouTube Channel"
+          },
+          {
+            "title": "All Star",
+            "artists": [
+              "Smash Mouth"
+            ],
+            "album": "Astro Lounge",
+            "release_year": 1999,
+            "thumbnail": "https://i.ytimg.com/vi_webp/8ay_BkRuv-o/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=8ay_BkRuv-o",
+            "channel": "SMASH MOUTH"
+          },
+          {
+            "title": "Run Away",
+            "artists": [
+              "Sunstroke Project",
+              "Olia Tira"
+            ],
+            "album": "Run Away",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/C42QFqec9dg/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=C42QFqec9dg",
+            "channel": "Sunstroke Project Official"
+          },
+          {
+            "title": "Hey Mamma (Radio Edit)",
+            "artists": [
+              "Sunstroke Project"
+            ],
+            "album": "Hey Mamma",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/_qqwYNvqmzk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=_qqwYNvqmzk",
+            "channel": "Sunstroke Project Official"
+          },
+          {
+            "title": "A Wonderful Guy",
+            "artists": [
+              "Tex Beneke"
+            ],
+            "album": "Presenting Tex Beneke",
+            "release_year": 1946,
+            "thumbnail": "https://i.ytimg.com/vi_webp/L0OH5I62tgo/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=L0OH5I62tgo",
+            "channel": "Tex Beneke - Topic"
+          },
+          {
+            "title": "Civilization Bongo Bongo Bongo",
+            "artists": [
+              "Andrews Sisters",
+              "Danny Kaye"
+            ],
+            "album": "Civilization Bongo Bongo Bongo",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi/HtdKl0D_qeQ/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=HtdKl0D_qeQ",
+            "channel": "The Andrews Sisters - Topic"
+          },
+          {
+            "title": "Let It Be (Remastered 2009)",
+            "artists": [
+              "The Beatles"
+            ],
+            "album": "Let It Be",
+            "release_year": 2009,
+            "thumbnail": "https://i.ytimg.com/vi_webp/QDYfEBY9NM4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=QDYfEBY9NM4",
+            "channel": "The Beatles"
+          },
+          {
+            "title": "Sixty Minute Man",
+            "artists": [
+              "The Dominoes"
+            ],
+            "album": "Presenting the Dominoes",
+            "release_year": 1951,
+            "thumbnail": "https://i.ytimg.com/vi_webp/09EarjR-UPU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=09EarjR-UPU",
+            "channel": "The Dominoes - Topic"
+          },
+          {
+            "title": "Atom Bomb Baby",
+            "artists": [
+              "The Five Stars"
+            ],
+            "album": "The Five Stars",
+            "release_year": 1957,
+            "thumbnail": "https://i.ytimg.com/vi_webp/6oGGLpl18rs/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=6oGGLpl18rs",
+            "channel": "The Five Stars - Topic"
+          },
+          {
+            "title": "Maybe",
+            "artists": [
+              "The Ink Spots"
+            ],
+            "album": "The Ink Spots - Sentimental Over You",
+            "release_year": null,
+            "thumbnail": "https://i.ytimg.com/vi_webp/ywwRFiGViI0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ywwRFiGViI0",
+            "channel": "The Ink Spots - Topic"
+          },
+          {
+            "title": "I Don't Want To Set The World On Fire",
+            "artists": [
+              "The Ink Spots"
+            ],
+            "album": "How To Make An American Quilt",
+            "release_year": 1941,
+            "thumbnail": "https://i.ytimg.com/vi_webp/NzLOy8nAjAg/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=NzLOy8nAjAg",
+            "channel": "The Ink Spots - Topic"
+          },
+          {
+            "title": "Into Each Life Some Rain Must Fall",
+            "artists": [
+              "The Ink Spots",
+              "Ella Fitzgerald"
+            ],
+            "album": "Gold",
+            "release_year": 1944,
+            "thumbnail": "https://i.ytimg.com/vi_webp/DxqFlT8GfIU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=DxqFlT8GfIU",
+            "channel": "The Ink Spots - Topic"
+          },
+          {
+            "title": "Java Jive",
+            "artists": [
+              "The Ink Spots"
+            ],
+            "album": "Java Jive",
+            "release_year": 2004,
+            "thumbnail": "https://i.ytimg.com/vi_webp/eoTCl8Esp04/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=eoTCl8Esp04",
+            "channel": "The Ink Spots - Topic"
+          },
+          {
+            "title": "Its All Over But The Crying",
+            "artists": [
+              "The Ink Spots"
+            ],
+            "album": "Old Fashioned Sad Songs - 60 Original Recordings (Remastered)",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/p1zues7mRsI/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=p1zues7mRsI",
+            "channel": "The Ink Spots - Topic"
+          },
+          {
+            "title": "STAY",
+            "artists": [
+              "The Kid LAROI",
+              "Justin Bieber"
+            ],
+            "album": "STAY",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/XfEMj-z3TtA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=XfEMj-z3TtA",
+            "channel": "The Kid LAROI."
+          },
+          {
+            "title": "I'm On A Boat",
+            "artists": [
+              "The Lonely Island",
+              "T-Pain"
+            ],
+            "album": "Incredibad",
+            "release_year": 2009,
+            "thumbnail": "https://i.ytimg.com/vi_webp/dqnjiit8OI4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=dqnjiit8OI4",
+            "channel": "thelonelyisland"
+          },
+          {
+            "title": "I Just Had Sex (Explicit)",
+            "artists": [
+              "The Lonely Island",
+              "Akon"
+            ],
+            "album": "Turtleneck & Chain",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/6eEnOk_C9wU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=6eEnOk_C9wU",
+            "channel": "thelonelyisland"
+          },
+          {
+            "title": "Jack Sparrow",
+            "artists": [
+              "The Lonely Island",
+              "Michael Bolton"
+            ],
+            "album": "Turtleneck & Chain",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/85cqCA1DFmI/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=85cqCA1DFmI",
+            "channel": "thelonelyisland"
+          },
+          {
+            "title": "Rocket 69",
+            "artists": [
+              "Todd Rhodes"
+            ],
+            "album": "Presenting Todd Rhodes",
+            "release_year": 1947,
+            "thumbnail": "https://i.ytimg.com/vi_webp/SiAk2Q4a0lA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=SiAk2Q4a0lA",
+            "channel": "Todd Rhodes - Topic"
+          },
+          {
+            "title": "Sexbomb",
+            "artists": [
+              "Tom Jones",
+              "Mousse T."
+            ],
+            "album": "Reload",
+            "release_year": 1999,
+            "thumbnail": "https://i.ytimg.com/vi_webp/KfGHjjovIe8/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=KfGHjjovIe8",
+            "channel": "Tom Jones"
+          },
+          {
+            "title": "YMCA (Original Version 1978)",
+            "artists": [
+              "Village People"
+            ],
+            "album": "YMCA (Original Album 1978)",
+            "release_year": 1978,
+            "thumbnail": "https://i.ytimg.com/vi_webp/RN8Li7kYNnw/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=RN8Li7kYNnw",
+            "channel": "Village People"
+          },
+          {
+            "title": "I Like To Move It",
+            "artists": [
+              "will.i.am"
+            ],
+            "album": "Madagascar: Escape 2 Africa",
+            "release_year": 2008,
+            "thumbnail": "https://i.ytimg.com/vi_webp/PLEQRIisP_Q/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=PLEQRIisP_Q",
+            "channel": "will i am"
+          },
+          {
+            "title": "Grandma Plays the Numbers",
+            "artists": [
+              "Wynonie Harris"
+            ],
+            "album": "Good Rockin' Blues",
+            "release_year": 1954,
+            "thumbnail": "https://i.ytimg.com/vi_webp/W3fC9686oBk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=W3fC9686oBk",
+            "channel": "Wynonie Harris - Topic"
+          },
+          {
+            "title": "The Fox (What Does the Fox Say?)",
+            "artists": [
+              "Ylvis"
+            ],
+            "album": "The Fox (What Does the Fox Say?)",
+            "release_year": 2013,
+            "thumbnail": "https://i.ytimg.com/vi/W20gcM6_UtQ/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=W20gcM6_UtQ",
+            "channel": "Ylvis"
+          }
+        ]
+      }
+    }
+  ]
+}

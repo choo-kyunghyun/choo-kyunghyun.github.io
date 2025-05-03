@@ -1,0 +1,167 @@
+{
+  "header": {
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "data": {
+        "root": [
+          {
+            "tag": "section",
+            "attributes": {
+              "class": "card"
+            },
+            "children": [
+              {
+                "tag": "h3",
+                "textContent": "${name}"
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "a",
+                    "attributes": {
+                      "href": "${url}",
+                      "target": "_blank"
+                    },
+                    "textContent": "Download"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "name": "mastercomfig",
+            "url": "https://github.com/mastercomfig/mastercomfig"
+          },
+          {
+            "name": "FlawHUD",
+            "url": "https://github.com/CriticalFlaw/flawhud"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "root": [
+          {
+            "tag": "section",
+            "attributes": {
+              "class": "card"
+            },
+            "children": [
+              {
+                "tag": "img",
+                "attributes": {
+                  "src": "${image}",
+                  "alt": "TF2"
+                }
+              },
+              {
+                "tag": "p",
+                "textContent": "${item0}"
+              },
+              {
+                "tag": "p",
+                "textContent": "${item1}"
+              },
+              {
+                "tag": "p",
+                "textContent": "${item2}"
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "image": "/images/tf2/loadout-0.webp",
+            "item0": "Classy Capper",
+            "item1": "Bushman",
+            "item2": "Scoped Spartan"
+          },
+          {
+            "image": "/images/tf2/loadout-1.webp",
+            "item0": "Spook Specs",
+            "item1": "Veteran's Attire",
+            "item2": "Killer's Kit"
+          },
+          {
+            "image": "/images/tf2/loadout-2.webp",
+            "item0": "Plaid Lad",
+            "item1": "Dynamite Abs",
+            "item2": "Melody of Misery"
+          },
+          {
+            "image": "/images/tf2/loadout-3.webp",
+            "item0": "Combat Medic's Crusher Cap",
+            "item1": "Colonel's Coat",
+            "item2": "Dictator"
+          },
+          {
+            "image": "/images/tf2/loadout-4.webp",
+            "item0": "Shoestring Santa",
+            "item1": "Gift Bringer",
+            "item2": "Festive Flip-Thwomps"
+          },
+          {
+            "image": "/images/tf2/loadout-5.webp",
+            "item0": "Cat's Pajamas",
+            "item1": "Trickster's Turnout Gear",
+            "item2": "Filamental"
+          },
+          {
+            "image": "/images/tf2/loadout-6.webp",
+            "item0": "Duality of Mantle",
+            "item1": "Graybanns",
+            "item2": "Kazan Karategi"
+          },
+          {
+            "image": "/images/tf2/loadout-7.webp",
+            "item0": "A Hat to Kill For",
+            "item1": "Strasbourg Scholar",
+            "item2": "Sneaky Spats of Sneaking"
+          },
+          {
+            "image": "/images/tf2/loadout-8.webp",
+            "item0": "Clue Hairdo",
+            "item1": "Sleuth Suit",
+            "item2": "Creepy Crawlers"
+          },
+          {
+            "image": "/images/tf2/loadout-9.webp",
+            "item0": "Commonwealth Commando",
+            "item1": "Airborne Attire",
+            "item2": "Blizzard Britches"
+          },
+          {
+            "image": "/images/tf2/loadout-10.webp",
+            "item0": "Ball-Kicking Boots",
+            "item1": "Backwards Ballcap",
+            "item2": "Team Player"
+          },
+          {
+            "image": "/images/tf2/loadout-11.webp",
+            "item0": "Nuke",
+            "item1": "Tsar Platinum",
+            "item2": "Gone Commando"
+          },
+          {
+            "image": "/images/tf2/loadout-12.webp",
+            "item0": "Sengoku Scorcher",
+            "item1": "Legendary Lid",
+            "item2": "Hook, Line, and Cinder"
+          },
+          {
+            "image": "/images/tf2/loadout-13.webp",
+            "item0": "Partizan",
+            "item1": "Pyro the Flamedeer",
+            "item2": "Frostbite Fit"
+          }
+        ]
+      }
+    }
+  ]
+}

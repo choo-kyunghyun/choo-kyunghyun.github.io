@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; child-src 'none'; img-src 'self' https://i.ytimg.com" />
+    <title>Collections</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Collections</h1>
+      <nav><a href="/index.html">Home</a></nav>
+    </header>
+    <main>
+      <section>
+        <h2>Development</h2>
+        <button data-target="#result" value="/data/hardware.json">
+          Hardware
+        </button>
+        <button data-target="#result" value="/data/software.json">
+          Software
+        </button>
+        <button data-target="#result" value="/data/vscode.json">VS Code</button>
+        <!-- <button data-target="#result" value="/data/books.json">Books</button> -->
+        <!-- <button data-target="#result" value="/data/movies.json">Movies</button> -->
+        <h2>Video Games</h2>
+        <button data-target="#result" value="/data/games.json">Games</button>
+        <button data-target="#result" value="/data/tf2.json">TF2</button>
+        <h2>Music</h2>
+        <button data-target="#result" value="/data/music/candy.json">
+          Candy
+        </button>
+        <button data-target="#result" value="/data/music/diamond.json">
+          Diamond
+        </button>
+        <button data-target="#result" value="/data/music/gold.json">
+          Gold
+        </button>
+        <button data-target="#result" value="/data/music/sapphire.json">
+          Sapphire
+        </button>
+        <button data-target="#result" value="/data/music/silver.json">
+          Silver
+        </button>
+        <h2>Search</h2>
+        <input
+          type="text"
+          autocomplete="off"
+          placeholder="Search"
+          data-search="#result" />
+      </section>
+      <div id="result" class="box"></div>
+    </main>
+    <footer><p>&copy; Choo&nbsp;Kyunghyun</p></footer>
+    <script src="/scripts/content-loader.js"></script>
+    <noscript>Please enable JavaScript to view this page.</noscript>
+  </body>
+</html>
