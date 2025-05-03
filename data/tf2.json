@@ -17,17 +17,12 @@
                 "textContent": "${name}"
               },
               {
-                "tag": "p",
-                "children": [
-                  {
-                    "tag": "a",
-                    "attributes": {
-                      "href": "${url}",
-                      "target": "_blank"
-                    },
-                    "textContent": "Download"
-                  }
-                ]
+                "tag": "a",
+                "attributes": {
+                  "href": "${url}",
+                  "target": "_blank"
+                },
+                "textContent": "Download"
               }
             ]
           }
