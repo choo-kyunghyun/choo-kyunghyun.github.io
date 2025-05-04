@@ -58,14 +58,25 @@
             "channel": "Alan Aztec"
           },
           {
-            "title": "Levels (Radio Edit)",
+            "title": "Waiting For Love",
             "artists": [
               "Avicii"
             ],
-            "album": "Levels",
-            "release_year": 2011,
-            "thumbnail": "https://i.ytimg.com/vi_webp/xAgv1mAyxr8/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=xAgv1mAyxr8",
+            "album": "Stories",
+            "release_year": 2015,
+            "thumbnail": "https://i.ytimg.com/vi_webp/iR1sAex__VA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=iR1sAex__VA",
+            "channel": "Avicii"
+          },
+          {
+            "title": "The Nights",
+            "artists": [
+              "Avicii"
+            ],
+            "album": "The Days / Nights",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi_webp/W4C-NEWrnSQ/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=W4C-NEWrnSQ",
             "channel": "Avicii"
           },
           {
@@ -91,47 +102,25 @@
             "channel": "Avicii"
           },
           {
-            "title": "The Nights",
+            "title": "Levels (Radio Edit)",
             "artists": [
               "Avicii"
             ],
-            "album": "The Days / Nights",
-            "release_year": 2014,
-            "thumbnail": "https://i.ytimg.com/vi_webp/W4C-NEWrnSQ/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=W4C-NEWrnSQ",
+            "album": "Levels",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/xAgv1mAyxr8/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=xAgv1mAyxr8",
             "channel": "Avicii"
           },
           {
-            "title": "Waiting For Love",
-            "artists": [
-              "Avicii"
-            ],
-            "album": "Stories",
-            "release_year": 2015,
-            "thumbnail": "https://i.ytimg.com/vi_webp/iR1sAex__VA/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=iR1sAex__VA",
-            "channel": "Avicii"
-          },
-          {
-            "title": "Captain Cool",
+            "title": "Nock Em",
             "artists": [
               "Bossfight"
             ],
-            "album": "Nice Catch Biggy!",
-            "release_year": 2011,
-            "thumbnail": "https://i.ytimg.com/vi_webp/a1VhjrIjMu0/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=a1VhjrIjMu0",
-            "channel": "BOSSFIGHT"
-          },
-          {
-            "title": "Dr. Finkelfracken's Cure",
-            "artists": [
-              "Bossfight"
-            ],
-            "album": "Nice Catch Biggy!",
-            "release_year": 2011,
-            "thumbnail": "https://i.ytimg.com/vi_webp/q_F0QDyilZA/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=q_F0QDyilZA",
+            "album": "Nock Em",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi/J077DryC2os/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=J077DryC2os",
             "channel": "BOSSFIGHT"
           },
           {
@@ -190,14 +179,25 @@
             "channel": "BOSSFIGHT"
           },
           {
-            "title": "Nock Em",
+            "title": "Captain Cool",
             "artists": [
               "Bossfight"
             ],
-            "album": "Nock Em",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi/J077DryC2os/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=J077DryC2os",
+            "album": "Nice Catch Biggy!",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/a1VhjrIjMu0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=a1VhjrIjMu0",
+            "channel": "BOSSFIGHT"
+          },
+          {
+            "title": "Dr. Finkelfracken's Cure",
+            "artists": [
+              "Bossfight"
+            ],
+            "album": "Nice Catch Biggy!",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/q_F0QDyilZA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=q_F0QDyilZA",
             "channel": "BOSSFIGHT"
           },
           {
@@ -212,17 +212,6 @@
             "channel": "CaravanPalace"
           },
           {
-            "title": "Harder, Better, Faster, Stronger",
-            "artists": [
-              "Daft Punk"
-            ],
-            "album": "Discovery",
-            "release_year": 2001,
-            "thumbnail": "https://i.ytimg.com/vi/JhulBGMA7G4/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=JhulBGMA7G4",
-            "channel": "Daft Punk"
-          },
-          {
             "title": "Get Lucky (Radio Edit - feat. Pharrell Williams and Nile Rodgers)",
             "artists": [
               "Daft Punk",
@@ -233,6 +222,17 @@
             "release_year": 2013,
             "thumbnail": "https://i.ytimg.com/vi/Rgrt_8mXrK8/maxresdefault.jpg",
             "url": "https://music.youtube.com/watch?v=Rgrt_8mXrK8",
+            "channel": "Daft Punk"
+          },
+          {
+            "title": "Harder, Better, Faster, Stronger",
+            "artists": [
+              "Daft Punk"
+            ],
+            "album": "Discovery",
+            "release_year": 2001,
+            "thumbnail": "https://i.ytimg.com/vi/JhulBGMA7G4/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=JhulBGMA7G4",
             "channel": "Daft Punk"
           },
           {
@@ -260,15 +260,15 @@
             "channel": "Dave Rodgers - Topic"
           },
           {
-            "title": "Slav King (feat. Life of Boris)",
+            "title": "Made in Russia",
             "artists": [
               "DJ Blyatman",
-              "Life of Boris"
+              "Russian Village Boys"
             ],
-            "album": "Slav King (feat. Life of Boris)",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/1Q3SOrb8AqM/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=1Q3SOrb8AqM",
+            "album": "Made in Russia",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi/P_HgWyqiWjg/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=P_HgWyqiWjg",
             "channel": "DJ Blyatman"
           },
           {
@@ -308,15 +308,15 @@
             "channel": "DJ Blyatman"
           },
           {
-            "title": "Made in Russia",
+            "title": "Slav King (feat. Life of Boris)",
             "artists": [
               "DJ Blyatman",
-              "Russian Village Boys"
+              "Life of Boris"
             ],
-            "album": "Made in Russia",
-            "release_year": 2019,
-            "thumbnail": "https://i.ytimg.com/vi/P_HgWyqiWjg/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=P_HgWyqiWjg",
+            "album": "Slav King (feat. Life of Boris)",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/1Q3SOrb8AqM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=1Q3SOrb8AqM",
             "channel": "DJ Blyatman"
           },
           {
@@ -329,17 +329,6 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/AqHlQL3PoD8/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=AqHlQL3PoD8",
             "channel": "Dxrk ダーク"
-          },
-          {
-            "title": "High Noon",
-            "artists": [
-              "Feed Me"
-            ],
-            "album": "A Giant Warrior Descends on Tokyo",
-            "release_year": 2015,
-            "thumbnail": "https://i.ytimg.com/vi_webp/OJDj3RD5q-g/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=OJDj3RD5q-g",
-            "channel": "Feed Me"
           },
           {
             "title": "Existential Crisis",
@@ -372,6 +361,17 @@
             "release_year": 2017,
             "thumbnail": "https://i.ytimg.com/vi_webp/fuxUm3b0nXE/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=fuxUm3b0nXE",
+            "channel": "Feed Me"
+          },
+          {
+            "title": "High Noon",
+            "artists": [
+              "Feed Me"
+            ],
+            "album": "A Giant Warrior Descends on Tokyo",
+            "release_year": 2015,
+            "thumbnail": "https://i.ytimg.com/vi_webp/OJDj3RD5q-g/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=OJDj3RD5q-g",
             "channel": "Feed Me"
           },
           {
@@ -419,6 +419,17 @@
             "channel": "King & Queen - Topic"
           },
           {
+            "title": "Give It Up",
+            "artists": [
+              "Knife Party"
+            ],
+            "album": "Abandon Ship",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi_webp/D5QqLfFxlOs/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=D5QqLfFxlOs",
+            "channel": "Knife Party"
+          },
+          {
             "title": "Internet Friends",
             "artists": [
               "Knife Party"
@@ -460,17 +471,6 @@
             "release_year": 2012,
             "thumbnail": "https://i.ytimg.com/vi_webp/BA77hy_jl4c/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=BA77hy_jl4c",
-            "channel": "Knife Party"
-          },
-          {
-            "title": "Give It Up",
-            "artists": [
-              "Knife Party"
-            ],
-            "album": "Abandon Ship",
-            "release_year": 2014,
-            "thumbnail": "https://i.ytimg.com/vi_webp/D5QqLfFxlOs/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=D5QqLfFxlOs",
             "channel": "Knife Party"
           },
           {
@@ -543,6 +543,17 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/_Fxil2QY0wE/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=_Fxil2QY0wE",
             "channel": "Max Coveri - Topic"
+          },
+          {
+            "title": "Diamonds",
+            "artists": [
+              "Mord Fustang"
+            ],
+            "album": "Diamonds",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Ew-JkxeXvB0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Ew-JkxeXvB0",
+            "channel": "Mord Fustang"
           },
           {
             "title": "Windwaker (Original Mix)",
@@ -622,17 +633,6 @@
             "channel": "Mord Fustang"
           },
           {
-            "title": "Diamonds",
-            "artists": [
-              "Mord Fustang"
-            ],
-            "album": "Diamonds",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Ew-JkxeXvB0/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Ew-JkxeXvB0",
-            "channel": "Mord Fustang"
-          },
-          {
             "title": "Night of Fire (Extended mix)",
             "artists": [
               "Niko",
@@ -645,17 +645,6 @@
             "channel": "N.I.K.O. - Topic"
           },
           {
-            "title": "Barracuda",
-            "artists": [
-              "Noisestorm"
-            ],
-            "album": "Barracuda",
-            "release_year": 2015,
-            "thumbnail": "https://i.ytimg.com/vi_webp/6GF0-mB5--4/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=6GF0-mB5--4",
-            "channel": "Noisestorm"
-          },
-          {
             "title": "Crab Rave",
             "artists": [
               "Noisestorm"
@@ -664,6 +653,17 @@
             "release_year": 2018,
             "thumbnail": "https://i.ytimg.com/vi_webp/c_sNBS-9Ras/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=c_sNBS-9Ras",
+            "channel": "Noisestorm"
+          },
+          {
+            "title": "Barracuda",
+            "artists": [
+              "Noisestorm"
+            ],
+            "album": "Barracuda",
+            "release_year": 2015,
+            "thumbnail": "https://i.ytimg.com/vi_webp/6GF0-mB5--4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=6GF0-mB5--4",
             "channel": "Noisestorm"
           },
           {
@@ -679,14 +679,14 @@
             "channel": "OfficialPandaEyes"
           },
           {
-            "title": "Hello",
+            "title": "I Love You",
             "artists": [
               "OMFG"
             ],
-            "album": "Hello",
-            "release_year": 2014,
-            "thumbnail": "https://i.ytimg.com/vi_webp/aaIjs8K3oYo/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=aaIjs8K3oYo",
+            "album": "I Love You",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi/-qg3BQln7HI/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=-qg3BQln7HI",
             "channel": "OMFG"
           },
           {
@@ -701,58 +701,83 @@
             "channel": "OMFG"
           },
           {
-            "title": "I Love You",
+            "title": "Hello",
             "artists": [
               "OMFG"
             ],
-            "album": "I Love You",
-            "release_year": 2016,
-            "thumbnail": "https://i.ytimg.com/vi/-qg3BQln7HI/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=-qg3BQln7HI",
+            "album": "Hello",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi_webp/aaIjs8K3oYo/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=aaIjs8K3oYo",
             "channel": "OMFG"
           },
           {
-            "title": "Chambermaid Swing",
+            "title": "Boy Met Girl",
             "artists": [
               "Parov Stelar"
             ],
-            "album": "Charleston Butterfly",
-            "release_year": 2006,
-            "thumbnail": "https://i.ytimg.com/vi/DD7oPx1y4K0/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=DD7oPx1y4K0",
+            "album": "Boy Met Girl",
+            "release_year": 2024,
+            "thumbnail": "https://i.ytimg.com/vi/jJFmdo3J4wQ/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=jJFmdo3J4wQ",
             "channel": "Parov Stelar"
           },
           {
-            "title": "Libella Swing (Extended)",
+            "title": "Tango Del Fuego",
             "artists": [
-              "Parov Stelar"
+              "Parov Stelar",
+              "Georgia Gibbs"
             ],
-            "album": "Libella Swing",
-            "release_year": 2008,
-            "thumbnail": "https://i.ytimg.com/vi_webp/SYt18-ZEEJo/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=SYt18-ZEEJo",
+            "album": "Voodoo Sonic (The Album)",
+            "release_year": 2020,
+            "thumbnail": "https://i.ytimg.com/vi_webp/hPMSy8jPI5k/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=hPMSy8jPI5k",
             "channel": "Parov Stelar"
           },
           {
-            "title": "Catgroove (Club Version)",
+            "title": "Grandpa's Groove",
             "artists": [
-              "Parov Stelar"
+              "Parov Stelar",
+              "AronChupa"
             ],
-            "album": "Coco EP",
-            "release_year": 2009,
-            "thumbnail": "https://i.ytimg.com/vi/sXi50CNytGQ/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=sXi50CNytGQ",
+            "album": "Grandpa's Groove",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/cF6ZLz1lj0E/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=cF6ZLz1lj0E",
             "channel": "Parov Stelar"
           },
           {
-            "title": "Booty Swing",
+            "title": "Demon Dance",
             "artists": [
               "Parov Stelar"
             ],
-            "album": "The Paris Swing Box",
-            "release_year": 2010,
-            "thumbnail": "https://i.ytimg.com/vi/DvvviZ3gZXM/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=DvvviZ3gZXM",
+            "album": "The Demon Diaries",
+            "release_year": 2015,
+            "thumbnail": "https://i.ytimg.com/vi/dnnP3dwIVjo/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=dnnP3dwIVjo",
+            "channel": "Parov Stelar"
+          },
+          {
+            "title": "Clap Your Hands",
+            "artists": [
+              "Parov Stelar"
+            ],
+            "album": "Clap Your Hands",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi/EhhxV_AmRtM/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=EhhxV_AmRtM",
+            "channel": "Parov Stelar"
+          },
+          {
+            "title": "The Sun",
+            "artists": [
+              "Parov Stelar",
+              "Graham Candy"
+            ],
+            "album": "Clap Your Hands",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi/pQ0BF_WA0X4/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=pQ0BF_WA0X4",
             "channel": "Parov Stelar"
           },
           {
@@ -789,73 +814,72 @@
             "channel": "Parov Stelar"
           },
           {
-            "title": "Clap Your Hands",
+            "title": "Booty Swing",
             "artists": [
               "Parov Stelar"
             ],
-            "album": "Clap Your Hands",
+            "album": "The Paris Swing Box",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi/DvvviZ3gZXM/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=DvvviZ3gZXM",
+            "channel": "Parov Stelar"
+          },
+          {
+            "title": "Catgroove (Club Version)",
+            "artists": [
+              "Parov Stelar"
+            ],
+            "album": "Coco EP",
+            "release_year": 2009,
+            "thumbnail": "https://i.ytimg.com/vi/sXi50CNytGQ/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=sXi50CNytGQ",
+            "channel": "Parov Stelar"
+          },
+          {
+            "title": "Libella Swing (Extended)",
+            "artists": [
+              "Parov Stelar"
+            ],
+            "album": "Libella Swing",
+            "release_year": 2008,
+            "thumbnail": "https://i.ytimg.com/vi_webp/SYt18-ZEEJo/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=SYt18-ZEEJo",
+            "channel": "Parov Stelar"
+          },
+          {
+            "title": "Chambermaid Swing",
+            "artists": [
+              "Parov Stelar"
+            ],
+            "album": "Charleston Butterfly",
+            "release_year": 2006,
+            "thumbnail": "https://i.ytimg.com/vi/DD7oPx1y4K0/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=DD7oPx1y4K0",
+            "channel": "Parov Stelar"
+          },
+          {
+            "title": "Hero (feat. Elizaveta)",
+            "artists": [
+              "Pegboard Nerds",
+              "Elizaveta"
+            ],
+            "album": "Hero (feat. Elizaveta)",
             "release_year": 2014,
-            "thumbnail": "https://i.ytimg.com/vi/EhhxV_AmRtM/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=EhhxV_AmRtM",
-            "channel": "Parov Stelar"
+            "thumbnail": "https://i.ytimg.com/vi_webp/q1K6OYyVG8o/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=q1K6OYyVG8o",
+            "channel": "Pegboard Nerds"
           },
           {
-            "title": "The Sun",
+            "title": "Razor Sharp",
             "artists": [
-              "Parov Stelar",
-              "Graham Candy"
+              "Pegboard Nerds",
+              "Tristam"
             ],
-            "album": "Clap Your Hands",
-            "release_year": 2014,
-            "thumbnail": "https://i.ytimg.com/vi/pQ0BF_WA0X4/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=pQ0BF_WA0X4",
-            "channel": "Parov Stelar"
-          },
-          {
-            "title": "Demon Dance",
-            "artists": [
-              "Parov Stelar"
-            ],
-            "album": "The Demon Diaries",
-            "release_year": 2015,
-            "thumbnail": "https://i.ytimg.com/vi/dnnP3dwIVjo/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=dnnP3dwIVjo",
-            "channel": "Parov Stelar"
-          },
-          {
-            "title": "Grandpa's Groove",
-            "artists": [
-              "Parov Stelar",
-              "AronChupa"
-            ],
-            "album": "Grandpa's Groove",
-            "release_year": 2016,
-            "thumbnail": "https://i.ytimg.com/vi_webp/cF6ZLz1lj0E/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=cF6ZLz1lj0E",
-            "channel": "Parov Stelar"
-          },
-          {
-            "title": "Tango Del Fuego",
-            "artists": [
-              "Parov Stelar",
-              "Georgia Gibbs"
-            ],
-            "album": "Voodoo Sonic (The Album)",
-            "release_year": 2020,
-            "thumbnail": "https://i.ytimg.com/vi_webp/hPMSy8jPI5k/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=hPMSy8jPI5k",
-            "channel": "Parov Stelar"
-          },
-          {
-            "title": "Boy Met Girl",
-            "artists": [
-              "Parov Stelar"
-            ],
-            "album": "Boy Met Girl",
-            "release_year": 2024,
-            "thumbnail": "https://i.ytimg.com/vi/jJFmdo3J4wQ/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=jJFmdo3J4wQ",
-            "channel": "Parov Stelar"
+            "album": "Razor Sharp",
+            "release_year": 2013,
+            "thumbnail": "https://i.ytimg.com/vi_webp/vcXuq9uxWsA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=vcXuq9uxWsA",
+            "channel": "Pegboard Nerds"
           },
           {
             "title": "Disconnected",
@@ -880,28 +904,26 @@
             "channel": "Pegboard Nerds"
           },
           {
-            "title": "Razor Sharp",
+            "title": "Awe",
             "artists": [
-              "Pegboard Nerds",
-              "Tristam"
+              "PrototypeRaptor"
             ],
-            "album": "Razor Sharp",
-            "release_year": 2013,
-            "thumbnail": "https://i.ytimg.com/vi_webp/vcXuq9uxWsA/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=vcXuq9uxWsA",
-            "channel": "Pegboard Nerds"
+            "album": "Awe",
+            "release_year": 2018,
+            "thumbnail": "https://i.ytimg.com/vi_webp/BJ5eCWjrRu8/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=BJ5eCWjrRu8",
+            "channel": "PrototypeRaptor - Topic"
           },
           {
-            "title": "Hero (feat. Elizaveta)",
+            "title": "Vivaldi (Original Mix)",
             "artists": [
-              "Pegboard Nerds",
-              "Elizaveta"
+              "PrototypeRaptor"
             ],
-            "album": "Hero (feat. Elizaveta)",
+            "album": "Rapid Vivaldi",
             "release_year": 2014,
-            "thumbnail": "https://i.ytimg.com/vi_webp/q1K6OYyVG8o/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=q1K6OYyVG8o",
-            "channel": "Pegboard Nerds"
+            "thumbnail": "https://i.ytimg.com/vi/8FwCQRACQVo/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=8FwCQRACQVo",
+            "channel": "PrototypeRaptor - Topic"
           },
           {
             "title": "Bring Back the Funk",
@@ -934,28 +956,6 @@
             "release_year": 2013,
             "thumbnail": "https://i.ytimg.com/vi/Fpnt_jIo1Tg/maxresdefault.jpg",
             "url": "https://music.youtube.com/watch?v=Fpnt_jIo1Tg",
-            "channel": "PrototypeRaptor - Topic"
-          },
-          {
-            "title": "Vivaldi (Original Mix)",
-            "artists": [
-              "PrototypeRaptor"
-            ],
-            "album": "Rapid Vivaldi",
-            "release_year": 2014,
-            "thumbnail": "https://i.ytimg.com/vi/8FwCQRACQVo/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=8FwCQRACQVo",
-            "channel": "PrototypeRaptor - Topic"
-          },
-          {
-            "title": "Awe",
-            "artists": [
-              "PrototypeRaptor"
-            ],
-            "album": "Awe",
-            "release_year": 2018,
-            "thumbnail": "https://i.ytimg.com/vi_webp/BJ5eCWjrRu8/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=BJ5eCWjrRu8",
             "channel": "PrototypeRaptor - Topic"
           },
           {
@@ -1029,6 +1029,17 @@
             "channel": "Slightly Left of Centre - Topic"
           },
           {
+            "title": "All Night",
+            "artists": [
+              "Stonebank"
+            ],
+            "album": "All Night",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Syll4gLXBjk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Syll4gLXBjk",
+            "channel": "Stonebank - Topic"
+          },
+          {
             "title": "Stronger (feat. Emel)",
             "artists": [
               "Stonebank"
@@ -1051,17 +1062,6 @@
             "channel": "Stonebank - Topic"
           },
           {
-            "title": "All Night",
-            "artists": [
-              "Stonebank"
-            ],
-            "album": "All Night",
-            "release_year": 2016,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Syll4gLXBjk/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Syll4gLXBjk",
-            "channel": "Stonebank - Topic"
-          },
-          {
             "title": "Space Invaders",
             "artists": [
               "Teminite",
@@ -1074,14 +1074,121 @@
             "channel": "Teminite"
           },
           {
-            "title": "Infinite Power",
+            "title": "Windfall",
             "artists": [
               "TheFatRat"
             ],
-            "album": "Infinite Power",
-            "release_year": 2014,
-            "thumbnail": "https://i.ytimg.com/vi_webp/twCzH75C_WE/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=twCzH75C_WE",
+            "album": "Windfall",
+            "release_year": 2020,
+            "thumbnail": "https://i.ytimg.com/vi_webp/E-RDYVYcIb0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=E-RDYVYcIb0",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "Xenogenesis",
+            "artists": [
+              "TheFatRat"
+            ],
+            "album": "Xenogenesis",
+            "release_year": 2020,
+            "thumbnail": "https://i.ytimg.com/vi_webp/1aQ4HSheJhk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=1aQ4HSheJhk",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "Close To The Sun",
+            "artists": [
+              "TheFatRat",
+              "Anjulie"
+            ],
+            "album": "Close To The Sun",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi/JXkySkXDHgM/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=JXkySkXDHgM",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "Rise Up",
+            "artists": [
+              "TheFatRat"
+            ],
+            "album": "Rise Up",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi_webp/6uVrP0Qj1cU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=6uVrP0Qj1cU",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "Stronger",
+            "artists": [
+              "TheFatRat",
+              "Slaydit",
+              "Anjulie"
+            ],
+            "album": "Stronger",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Y04-kt0WJfE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Y04-kt0WJfE",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "The Storm",
+            "artists": [
+              "TheFatRat",
+              "Maisy Kay"
+            ],
+            "album": "The Storm",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi_webp/hy_PexzvC1c/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=hy_PexzvC1c",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "MAYDAY",
+            "artists": [
+              "TheFatRat",
+              "Laura Brehm"
+            ],
+            "album": "MAYDAY",
+            "release_year": 2018,
+            "thumbnail": "https://i.ytimg.com/vi_webp/szDsuIRCPn0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=szDsuIRCPn0",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "Fly Away",
+            "artists": [
+              "TheFatRat",
+              "Anjulie"
+            ],
+            "album": "Fly Away",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/HdNnJdd9ljY/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=HdNnJdd9ljY",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "Oblivion",
+            "artists": [
+              "TheFatRat",
+              "Lola Blanc"
+            ],
+            "album": "Oblivion",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/2rgrOiadO2c/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=2rgrOiadO2c",
+            "channel": "TheFatRat"
+          },
+          {
+            "title": "The Calling (feat. Laura Brehm)",
+            "artists": [
+              "TheFatRat",
+              "Laura Brehm"
+            ],
+            "album": "The Calling",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/NO8Arj4yeww/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=NO8Arj4yeww",
             "channel": "TheFatRat"
           },
           {
@@ -1140,143 +1247,40 @@
             "channel": "TheFatRat"
           },
           {
-            "title": "The Calling (feat. Laura Brehm)",
-            "artists": [
-              "TheFatRat",
-              "Laura Brehm"
-            ],
-            "album": "The Calling",
-            "release_year": 2016,
-            "thumbnail": "https://i.ytimg.com/vi_webp/NO8Arj4yeww/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=NO8Arj4yeww",
-            "channel": "TheFatRat"
-          },
-          {
-            "title": "Fly Away",
-            "artists": [
-              "TheFatRat",
-              "Anjulie"
-            ],
-            "album": "Fly Away",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/HdNnJdd9ljY/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=HdNnJdd9ljY",
-            "channel": "TheFatRat"
-          },
-          {
-            "title": "Oblivion",
-            "artists": [
-              "TheFatRat",
-              "Lola Blanc"
-            ],
-            "album": "Oblivion",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/2rgrOiadO2c/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=2rgrOiadO2c",
-            "channel": "TheFatRat"
-          },
-          {
-            "title": "MAYDAY",
-            "artists": [
-              "TheFatRat",
-              "Laura Brehm"
-            ],
-            "album": "MAYDAY",
-            "release_year": 2018,
-            "thumbnail": "https://i.ytimg.com/vi_webp/szDsuIRCPn0/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=szDsuIRCPn0",
-            "channel": "TheFatRat"
-          },
-          {
-            "title": "Close To The Sun",
-            "artists": [
-              "TheFatRat",
-              "Anjulie"
-            ],
-            "album": "Close To The Sun",
-            "release_year": 2019,
-            "thumbnail": "https://i.ytimg.com/vi/JXkySkXDHgM/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=JXkySkXDHgM",
-            "channel": "TheFatRat"
-          },
-          {
-            "title": "Rise Up",
+            "title": "Infinite Power",
             "artists": [
               "TheFatRat"
             ],
-            "album": "Rise Up",
-            "release_year": 2019,
-            "thumbnail": "https://i.ytimg.com/vi_webp/6uVrP0Qj1cU/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=6uVrP0Qj1cU",
+            "album": "Infinite Power",
+            "release_year": 2014,
+            "thumbnail": "https://i.ytimg.com/vi_webp/twCzH75C_WE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=twCzH75C_WE",
             "channel": "TheFatRat"
           },
           {
-            "title": "Stronger",
+            "title": "Freaks",
+            "album": "Freaks",
+            "release_year": 2014,
             "artists": [
-              "TheFatRat",
-              "Slaydit",
-              "Anjulie"
+              "Timmy Trumpet",
+              "Timothy Jude Smith",
+              "Ivan Gough"
             ],
-            "album": "Stronger",
-            "release_year": 2019,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Y04-kt0WJfE/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Y04-kt0WJfE",
-            "channel": "TheFatRat"
+            "thumbnail": "https://i.ytimg.com/vi_webp/JryIfRkerPw/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=JryIfRkerPw",
+            "channel": "Timmy Trumpet"
           },
           {
-            "title": "The Storm",
+            "title": "Italia (feat. Bertra)",
             "artists": [
-              "TheFatRat",
-              "Maisy Kay"
+              "Uamee",
+              "Alan Aztec",
+              "Bertra"
             ],
-            "album": "The Storm",
-            "release_year": 2019,
-            "thumbnail": "https://i.ytimg.com/vi_webp/hy_PexzvC1c/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=hy_PexzvC1c",
-            "channel": "TheFatRat"
-          },
-          {
-            "title": "Windfall",
-            "artists": [
-              "TheFatRat"
-            ],
-            "album": "Windfall",
-            "release_year": 2020,
-            "thumbnail": "https://i.ytimg.com/vi_webp/E-RDYVYcIb0/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=E-RDYVYcIb0",
-            "channel": "TheFatRat"
-          },
-          {
-            "title": "Xenogenesis",
-            "artists": [
-              "TheFatRat"
-            ],
-            "album": "Xenogenesis",
-            "release_year": 2020,
-            "thumbnail": "https://i.ytimg.com/vi_webp/1aQ4HSheJhk/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=1aQ4HSheJhk",
-            "channel": "TheFatRat"
-          },
-          {
-            "title": "Protivogaz",
-            "artists": [
-              "Uamee"
-            ],
-            "album": "Protivogaz",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/BG3mJ3eBwLM/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=BG3mJ3eBwLM",
-            "channel": "uamee"
-          },
-          {
-            "title": "IL-76",
-            "artists": [
-              "Uamee"
-            ],
-            "album": "Straight Out of a Squatvia",
-            "release_year": 2018,
-            "thumbnail": "https://i.ytimg.com/vi_webp/hUWnJSasp0M/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=hUWnJSasp0M",
+            "album": "Italia (feat. Bertra)",
+            "release_year": 2021,
+            "thumbnail": "https://i.ytimg.com/vi_webp/1_HZTHSQLXU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=1_HZTHSQLXU",
             "channel": "uamee"
           },
           {
@@ -1302,16 +1306,25 @@
             "channel": "uamee"
           },
           {
-            "title": "Italia (feat. Bertra)",
+            "title": "IL-76",
             "artists": [
-              "Uamee",
-              "Alan Aztec",
-              "Bertra"
+              "Uamee"
             ],
-            "album": "Italia (feat. Bertra)",
-            "release_year": 2021,
-            "thumbnail": "https://i.ytimg.com/vi_webp/1_HZTHSQLXU/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=1_HZTHSQLXU",
+            "album": "Straight Out of a Squatvia",
+            "release_year": 2018,
+            "thumbnail": "https://i.ytimg.com/vi_webp/hUWnJSasp0M/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=hUWnJSasp0M",
+            "channel": "uamee"
+          },
+          {
+            "title": "Protivogaz",
+            "artists": [
+              "Uamee"
+            ],
+            "album": "Protivogaz",
+            "release_year": 2017,
+            "thumbnail": "https://i.ytimg.com/vi_webp/BG3mJ3eBwLM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=BG3mJ3eBwLM",
             "channel": "uamee"
           },
           {
@@ -1326,25 +1339,25 @@
             "channel": "Virtual Riot"
           },
           {
-            "title": "Vodovorot",
+            "title": "OIIA OIIA (Spinning Cat)",
+            "album": "OIIA OIIA (Spinning Cat)",
+            "release_year": 2025,
             "artists": [
-              "XS Project"
+              "W&W"
             ],
-            "album": "Brosay Dolbit!",
-            "release_year": 2011,
-            "thumbnail": "https://i.ytimg.com/vi_webp/7c9wFb5OBXM/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=7c9wFb5OBXM",
-            "channel": "XS Project"
+            "thumbnail": "https://i.ytimg.com/vi/aM7FVSYd2UI/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=aM7FVSYd2UI",
+            "channel": "W&W"
           },
           {
-            "title": "Bochka, Bass, Kolbaser",
+            "title": "Counter Strike",
             "artists": [
               "XS Project"
             ],
-            "album": "Bochka, Bass, Kolbaser",
-            "release_year": 2016,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Lirc7fymdCA/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Lirc7fymdCA",
+            "album": "Counter Strike",
+            "release_year": 2019,
+            "thumbnail": "https://i.ytimg.com/vi_webp/VuRBiLJxi_w/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=VuRBiLJxi_w",
             "channel": "XS Project"
           },
           {
@@ -1359,14 +1372,25 @@
             "channel": "XS Project"
           },
           {
-            "title": "Counter Strike",
+            "title": "Bochka, Bass, Kolbaser",
             "artists": [
               "XS Project"
             ],
-            "album": "Counter Strike",
-            "release_year": 2019,
-            "thumbnail": "https://i.ytimg.com/vi_webp/VuRBiLJxi_w/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=VuRBiLJxi_w",
+            "album": "Bochka, Bass, Kolbaser",
+            "release_year": 2016,
+            "thumbnail": "https://i.ytimg.com/vi_webp/Lirc7fymdCA/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Lirc7fymdCA",
+            "channel": "XS Project"
+          },
+          {
+            "title": "Vodovorot",
+            "artists": [
+              "XS Project"
+            ],
+            "album": "Brosay Dolbit!",
+            "release_year": 2011,
+            "thumbnail": "https://i.ytimg.com/vi_webp/7c9wFb5OBXM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=7c9wFb5OBXM",
             "channel": "XS Project"
           }
         ]

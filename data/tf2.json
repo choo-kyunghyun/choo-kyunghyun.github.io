@@ -154,6 +154,18 @@
             "item0": "Partizan",
             "item1": "Pyro the Flamedeer",
             "item2": "Frostbite Fit"
+          },
+          {
+            "image": "/images/tf2/loadout-14.webp",
+            "item0": "Fleet Commander",
+            "item1": "Dusk Duster",
+            "item2": "Hog Heels"
+          },
+          {
+            "image": "/images/tf2/loadout-15.webp",
+            "item0": "Balkan's Brute",
+            "item1": "Siberian Tigerstripe",
+            "item2": "Gone Commando"
           }
         ]
       }
