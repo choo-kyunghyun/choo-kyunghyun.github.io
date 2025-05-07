@@ -1175,6 +1175,17 @@
             "channel": "Stonebank - Topic"
           },
           {
+            "title": "Dynamite",
+            "album": "Rokstarr",
+            "release_year": 2010,
+            "artists": [
+              "Taio Cruz"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/3MrY_BwLChk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=3MrY_BwLChk",
+            "channel": "Taio Cruz"
+          },
+          {
             "title": "Space Invaders",
             "artists": [
               "Teminite",
