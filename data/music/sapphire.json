@@ -145,6 +145,65 @@
             "channel": "James Hannigan"
           },
           {
+            "title": "A Town with an Ocean View (from 'Kiki's Delivery Service')",
+            "artists": [
+              "Joe Hisaishi",
+              "Royal Philharmonic Orchestra"
+            ],
+            "album": "A Symphonic Celebration - Music from the Studio Ghibli Films of Hayao Miyazaki",
+            "release_year": 2023,
+            "thumbnail": "https://i.ytimg.com/vi_webp/j0-bAeVWkWI/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=j0-bAeVWkWI",
+            "channel": "Joe Hisaishi Official"
+          },
+          {
+            "title": "One Summer's Day (from 'Spirited Away')",
+            "artists": [
+              "Joe Hisaishi",
+              "London Symphony Orchestra"
+            ],
+            "album": "El Castillo Ambulante",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/-ZleCZAeINY/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=-ZleCZAeINY",
+            "channel": "Joe Hisaishi Official"
+          },
+          {
+            "title": "Summer (from 'Kikujiro')",
+            "artists": [
+              "Joe Hisaishi",
+              "London Symphony Orchestra"
+            ],
+            "album": "Summer",
+            "release_year": 2010,
+            "thumbnail": "https://i.ytimg.com/vi_webp/slkLvKpNnGs/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=slkLvKpNnGs",
+            "channel": "Joe Hisaishi Official"
+          },
+          {
+            "title": "Merry-Go-Round of Life (from 'Howl's Moving Castle')",
+            "artists": [
+              "Joe Hisaishi"
+            ],
+            "album": "FREEDOM PIANO STORIES 4",
+            "release_year": 2005,
+            "thumbnail": "https://i.ytimg.com/vi_webp/xxsvTvDQKMY/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=xxsvTvDQKMY",
+            "channel": "Joe Hisaishi Official"
+          },
+          {
+            "title": "il porco rosso",
+            "artists": [
+              "Joe Hisaishi",
+              "Orchestra Città di Ferrara"
+            ],
+            "album": "NOSTALGIA -PIANO STORIES III-",
+            "release_year": 1998,
+            "thumbnail": "https://i.ytimg.com/vi_webp/iKMHCmDdJ2U/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=iKMHCmDdJ2U",
+            "channel": "Joe Hisaishi Official"
+          },
+          {
             "title": "遊園施設",
             "artists": [
               "Keigo Hoashi",
@@ -489,369 +548,6 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/0FCvzsVlXpQ/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=0FCvzsVlXpQ",
             "channel": "Toby Fox - Topic"
-          },
-          {
-            "title": "A Little Heart to Heart",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/rCQ5uAFqkVc/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=rCQ5uAFqkVc",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Archimedes",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/d_C14GQIs2Q/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=d_C14GQIs2Q",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Blu Triumphs!",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/YCoECy6r9nE/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=YCoECy6r9nE",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Carousel of Curses",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/I1ccUs17s54/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=I1ccUs17s54",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Dapper Cadaver",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/AAk1ugo5mNg/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=AAk1ugo5mNg",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Dreams of Cruelty",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/xorYMC25VqQ/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=xorYMC25VqQ",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Drunken Pipe Bomb",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/WVYzEC8dLwM/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=WVYzEC8dLwM",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Faster Than a Speeding Bullet",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/QRvOjUyoeBQ/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=QRvOjUyoeBQ",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Haunted Fortress",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/0CkJEtaYdyY/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=0CkJEtaYdyY",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Intruder Alert",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/WHd7OIanCGM/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=WHd7OIanCGM",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "It Hates Me So Much",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/QD-dbJt1pUw/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=QD-dbJt1pUw",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Medic!",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/VGvEgzeUZvI/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=VGvEgzeUZvI",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Mercenary Park",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/9sE6alHcM4w/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=9sE6alHcM4w",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Misfortune teller",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Nq69rGToOnM/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Nq69rGToOnM",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "More Gun",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/_-HeGA-FRZw/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=_-HeGA-FRZw",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Petite Chou-Fleur",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Qa-yo9y256g/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Qa-yo9y256g",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Playing With Danger",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/ZMUfcPs4iho/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=ZMUfcPs4iho",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Red Bread",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/NuRloAp4t6U/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=NuRloAp4t6U",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Red Triumphs!",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/6hAchXo4-tE/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=6hAchXo4-tE",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Right Behind You",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/CxlNDYUZk2A/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=CxlNDYUZk2A",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Rise of the Living Bread",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/eVezL7OM_Yw/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=eVezL7OM_Yw",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Robots!",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/rib7ApVUKqk/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=rib7ApVUKqk",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Rocket Jump Waltz",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/4cAcSqZkd54/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=4cAcSqZkd54",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Saluting the Fallen",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/4_OOyecN1yU/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=4_OOyecN1yU",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Saxton's Dilemma",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/F1g_kiugQGE/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=F1g_kiugQGE",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Seduce Me!",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/g3tX1zloHyw/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=g3tX1zloHyw",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Soldier of Dance",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/QCA8WpKXnd8/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=QCA8WpKXnd8",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Stink Lines",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/yKC0lPpglJQ/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=yKC0lPpglJQ",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Team Fortress 2",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Pp6eI5H-Y9g/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Pp6eI5H-Y9g",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "The Art of War",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/hFXGnjXAuY8/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=hFXGnjXAuY8",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "The Calm",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Acuf4auEgjM/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Acuf4auEgjM",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Three Days to Live",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/CN2lX_FylEY/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=CN2lX_FylEY",
-            "channel": "Valve Studio Orchestra - Topic"
-          },
-          {
-            "title": "Yeti Park",
-            "artists": [
-              "Valve Studio Orchestra"
-            ],
-            "album": "Fight Songs: The Music of Team Fortress 2",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/gjv5qDEaLCw/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=gjv5qDEaLCw",
-            "channel": "Valve Studio Orchestra - Topic"
           }
         ]
       }
