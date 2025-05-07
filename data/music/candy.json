@@ -166,6 +166,17 @@
             "channel": "和田アキ子"
           },
           {
+            "title": "Usseewa",
+            "album": "Kyougen",
+            "release_year": 2020,
+            "artists": [
+              "Ado"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/GtPLYvYeZ_4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=GtPLYvYeZ_4",
+            "channel": "Ado"
+          },
+          {
             "title": "Zankyosanka",
             "artists": [
               "Aimer"
@@ -1988,6 +1999,17 @@
             ],
             "thumbnail": "https://i.ytimg.com/vi_webp/gd8D552XOVc/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=gd8D552XOVc",
+            "channel": "Release - Topic"
+          },
+          {
+            "title": "サインはB -アイ Solo Ver.-",
+            "album": "TVアニメ「【推しの子】」キャラクターソングCD Vol.1",
+            "release_year": 2023,
+            "artists": [
+              "B小町 アイ（CV：高橋李依）"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/gzBYrrMengE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=gzBYrrMengE",
             "channel": "Release - Topic"
           },
           {

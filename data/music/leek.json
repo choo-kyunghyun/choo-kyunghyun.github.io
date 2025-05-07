@@ -45,6 +45,20 @@
         ],
         "items": [
           {
+            "title": "ネトゲ廃人シュプレヒコール",
+            "album": "Jinchikumugai Satsuki ga Tenkomori",
+            "release_year": 2012,
+            "artists": [
+              "Satsuki ga Tenkomori",
+              "Hatsune miku",
+              "Satsuki ga Tenkomori",
+              "Satsuki ga Tenkomori"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi/I3cETfu08w4/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=I3cETfu08w4",
+            "channel": " Satsuki ga Tenkomori - Topic"
+          },
+          {
             "title": "ツギハギスタッカート (feat. 初音ミク)",
             "artists": [
               "とあ",
@@ -887,6 +901,18 @@
             "channel": "HarumakiGohan Official"
           },
           {
+            "title": "それがあなたの幸せとしても (feat. 巡音ルカ)",
+            "album": "それがあなたの幸せとしても",
+            "release_year": 2013,
+            "artists": [
+              "Heavenz",
+              "巡音ルカ"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/_9oRPoBp7vU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=_9oRPoBp7vU",
+            "channel": "Heavenz / Experimental Groove"
+          },
+          {
             "title": "猛独が襲う",
             "artists": [
               "Hifumi"
@@ -1033,6 +1059,17 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/SsyAsF9MAoQ/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=SsyAsF9MAoQ",
             "channel": "kemu - Topic"
+          },
+          {
+            "title": "愛して　愛して　愛して (feat. Hatsune Miku)",
+            "album": "Kikuo Miku 3",
+            "release_year": 2013,
+            "artists": [
+              "KIKUO"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/KxNOBCyGhnk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=KxNOBCyGhnk",
+            "channel": "Kikuo"
           },
           {
             "title": "Catch the Wave feat.初音ミク",
@@ -1668,6 +1705,17 @@
             "channel": "Neru OFFICIAL"
           },
           {
+            "title": "メリュー (feat. 宵崎奏 & 朝比奈まふゆ & 初音ミク)",
+            "album": "25時、ナイトコードで。 SEKAI ALBUM vol.2",
+            "release_year": 2024,
+            "artists": [
+              "25時、ナイトコードで。"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/OkYEb3zeNJg/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=OkYEb3zeNJg",
+            "channel": "Nightcord at 25:00 - Topic"
+          },
+          {
             "title": "トリコロージュ (feat. 宵崎奏 & 朝比奈まふゆ & 東雲絵名 & 暁山瑞希 & 初音ミク)",
             "album": "ロウワー/トリコロージュ",
             "release_year": 2023,
@@ -1858,6 +1906,30 @@
             "channel": "OSTER Project - Topic"
           },
           {
+            "title": "ラヴィ",
+            "album": "Lavie",
+            "release_year": 2024,
+            "artists": [
+              "Three",
+              "Three",
+              "Three"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/YXtyv3Mzj1U/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=YXtyv3Mzj1U",
+            "channel": "Release - Topic"
+          },
+          {
+            "title": "フォニイ",
+            "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+            "release_year": 2021,
+            "artists": [
+              "Tsumiki feat. KAFU"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/Cn9NpA227B8/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Cn9NpA227B8",
+            "channel": "Release - Topic"
+          },
+          {
             "title": "ハロ／ハワユ (feat. 初音ミク & メグッポイド)",
             "artists": [
               "ナノウ",
@@ -1976,6 +2048,28 @@
             "channel": "suzumu - Topic"
           },
           {
+            "title": "ザムザ",
+            "album": "ザムザ",
+            "release_year": 2023,
+            "artists": [
+              "teniwoha"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/8BQqO_1nl24/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=8BQqO_1nl24",
+            "channel": "Teniwoha - Topic"
+          },
+          {
+            "title": "ヴィラン",
+            "album": "ヴィラン",
+            "release_year": 2020,
+            "artists": [
+              "teniwoha"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/yrw7Ddi-YNs/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=yrw7Ddi-YNs",
+            "channel": "Teniwoha - Topic"
+          },
+          {
             "title": "SPiCa (feat. 初音ミク)",
             "artists": [
               "とくP",
@@ -1998,6 +2092,19 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/nHGW_wUfqkQ/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=nHGW_wUfqkQ",
             "channel": "WhiteFlame official"
+          },
+          {
+            "title": "リモコン (feat. 鏡音リン & 鏡音レン)",
+            "album": "ワン☆オポ！vol.04",
+            "release_year": 2011,
+            "artists": [
+              "Wonderful★opportunity!",
+              "鏡音リン",
+              "鏡音レン"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/N4UfoDdGk9U/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=N4UfoDdGk9U",
+            "channel": "WONDERFUL★OPPORTUNITY!"
           },
           {
             "title": "ジェヘナ (feat. 初音ミク)",
@@ -2223,6 +2330,41 @@
             "channel": "じん OFFICIAL YOUTUBE CHANNEL"
           },
           {
+            "title": "アイロニ",
+            "album": "Irony",
+            "release_year": 2024,
+            "artists": [
+              "Scop",
+              "Scop",
+              "Scop"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/mvwXYYZhq6E/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=mvwXYYZhq6E",
+            "channel": "すこっぷOfficial Channel"
+          },
+          {
+            "title": "エゴロック (long ver.)",
+            "album": "エゴロック",
+            "release_year": 2021,
+            "artists": [
+              "すりぃ"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi/ids_KdyW24k/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=ids_KdyW24k",
+            "channel": "すりぃ"
+          },
+          {
+            "title": "テレキャスタービーボーイ (long ver.)",
+            "album": "パンデミック",
+            "release_year": 2020,
+            "artists": [
+              "すりぃ"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/lTuS5mAedRQ/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=lTuS5mAedRQ",
+            "channel": "すりぃ"
+          },
+          {
             "title": "み む かゥ わ ナ イ ス ト ラ イ",
             "album": "み む かゥ わ ナ イ ス ト ラ イ",
             "release_year": 2024,
@@ -2232,6 +2374,17 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/mkrKu_Bd9dg/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=mkrKu_Bd9dg",
             "channel": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ"
+          },
+          {
+            "title": "命ばっかり",
+            "album": "plotoplan",
+            "release_year": 2017,
+            "artists": [
+              "ぬゆり"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/_9mI6hlQg9Y/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=_9mI6hlQg9Y",
+            "channel": "ぬゆり - Topic"
           },
           {
             "title": "wowaka 『裏表ラバーズ』feat. 初音ミク / wowaka - Ura-Omote Lovers (Official Video) ft. Hatsune Miku",
@@ -2761,6 +2914,15 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/bJW2sSadKt4/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=bJW2sSadKt4",
             "channel": "れすぽん"
+          },
+          {
+            "title": "神のまにまに - れるりりfeat.ミク&リン&GUMI / At God's Mercy - rerulili feat.Vocaloids",
+            "album": null,
+            "release_year": null,
+            "artists": null,
+            "thumbnail": "https://i.ytimg.com/vi/b2GJcYBoVyg/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=b2GJcYBoVyg",
+            "channel": "れるりり, rerulili"
           }
         ]
       }

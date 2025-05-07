@@ -693,6 +693,17 @@
             "channel": "Toby Fox - Topic"
           },
           {
+            "title": "It's Showtime!",
+            "album": "UNDERTALE Soundtrack",
+            "release_year": 2015,
+            "artists": [
+              "Toby Fox"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/3LhZWVRp6f4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=3LhZWVRp6f4",
+            "channel": "Toby Fox - Topic"
+          },
+          {
             "title": "MEGALOVANIA",
             "artists": [
               "Toby Fox"
@@ -701,6 +712,17 @@
             "release_year": 2015,
             "thumbnail": "https://i.ytimg.com/vi_webp/0FCvzsVlXpQ/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=0FCvzsVlXpQ",
+            "channel": "Toby Fox - Topic"
+          },
+          {
+            "title": "Temmie Village",
+            "album": "UNDERTALE Soundtrack",
+            "release_year": 2015,
+            "artists": [
+              "Toby Fox"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/1KUcmuSNmVE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=1KUcmuSNmVE",
             "channel": "Toby Fox - Topic"
           }
         ]
