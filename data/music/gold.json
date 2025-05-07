@@ -304,17 +304,6 @@
             "channel": "Cole Porter - Topic"
           },
           {
-            "title": "Robot Rock",
-            "album": "Human After All",
-            "release_year": 2005,
-            "artists": [
-              "Daft Punk"
-            ],
-            "thumbnail": "https://i.ytimg.com/vi/l4L78W66kCI/maxresdefault.jpg",
-            "url": "https://music.youtube.com/watch?v=l4L78W66kCI",
-            "channel": "Daft Punk"
-          },
-          {
             "title": "Tunak Tunak Tun",
             "artists": [
               "Daler Mehndi"
@@ -1443,6 +1432,17 @@
             "thumbnail": "https://i.ytimg.com/vi/W20gcM6_UtQ/maxresdefault.jpg",
             "url": "https://music.youtube.com/watch?v=W20gcM6_UtQ",
             "channel": "Ylvis"
+          },
+          {
+            "title": "Fabulous Secret Powers",
+            "album": "Fabulous Secret Powers",
+            "release_year": 2016,
+            "artists": [
+              "SLACKCiRCUS"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/3chCr8xYTOY/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=3chCr8xYTOY",
+            "channel": "SLACKCiRCUS - Topic"
           }
         ]
       }

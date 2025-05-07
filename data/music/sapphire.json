@@ -548,6 +548,29 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/0FCvzsVlXpQ/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=0FCvzsVlXpQ",
             "channel": "Toby Fox - Topic"
+          },
+          {
+            "title": "Aria Math",
+            "album": "Minecraft - Volume Beta",
+            "release_year": 2013,
+            "artists": [
+              "C418"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/KOIEo_74L-Q/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=KOIEo_74L-Q",
+            "channel": "C418"
+          },
+          {
+            "title": "Pigstep (Stereo Mix)",
+            "album": "Minecraft: Nether Update",
+            "release_year": 2020,
+            "artists": [
+              "Lena Raine",
+              "Minecraft"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/BTthtlT80Rc/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=BTthtlT80Rc",
+            "channel": "Lena Raine"
           }
         ]
       }

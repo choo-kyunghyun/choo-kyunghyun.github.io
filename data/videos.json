@@ -1,0 +1,49 @@
+{
+  "header": {
+    "author": "Choo Kyunghyun"
+  },
+  "root": [
+    {
+      "data": {
+        "root": [
+          {
+            "tag": "section",
+            "attributes": {
+              "class": "card"
+            },
+            "children": [
+              {
+                "tag": "img",
+                "attributes": {
+                  "src": "${thumbnail}",
+                  "alt": "${title}"
+                }
+              },
+              {
+                "tag": "a",
+                "attributes": {
+                  "href": "${url}",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "tag": "h4",
+                    "textContent": "${title}"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "title": "Agent Gunn: Vulkanite [Saxxy Awards 2017 Best Overall Winner]",
+            "thumbnail": "https://i.ytimg.com/vi_webp/CPC5heaOPCQ/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=CPC5heaOPCQ",
+            "channel": "Liz Caingcoy"
+          }
+        ]
+      }
+    }
+  ]
+}

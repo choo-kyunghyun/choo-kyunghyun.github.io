@@ -1392,6 +1392,52 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/7c9wFb5OBXM/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=7c9wFb5OBXM",
             "channel": "XS Project"
+          },
+          {
+            "title": "Robot Rock",
+            "album": "Human After All",
+            "release_year": 2005,
+            "artists": [
+              "Daft Punk"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi/l4L78W66kCI/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=l4L78W66kCI",
+            "channel": "Daft Punk"
+          },
+          {
+            "title": "this is what space feels like",
+            "album": "this is what space feels like",
+            "release_year": 2023,
+            "artists": [
+              "JVKE",
+              "Jake Lawson",
+              "Zac Lawson"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/gh7aDuRJytM/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=gh7aDuRJytM",
+            "channel": "JVKE"
+          },
+          {
+            "title": "Falling",
+            "album": "Nicotine",
+            "release_year": 2018,
+            "artists": [
+              "Trevor Daniel"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/P9L_ZWVPX4g/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=P9L_ZWVPX4g",
+            "channel": "Trevor Daniel"
+          },
+          {
+            "title": "doodle",
+            "album": "doodle",
+            "release_year": 2024,
+            "artists": [
+              "Zachz Winner"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/AtXtXhZqc4s/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=AtXtXhZqc4s",
+            "channel": "Zachz Winner"
           }
         ]
       }

@@ -3193,6 +3193,50 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/p0_udWUi1HA/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=p0_udWUi1HA",
             "channel": "ヨルシカ / n-buna Official"
+          },
+          {
+            "title": "命に嫌われている",
+            "album": "不器用な男",
+            "release_year": 2021,
+            "artists": [
+              "Iori Kanzaki"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/N2A2VZTl9X0/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=N2A2VZTl9X0",
+            "channel": "Iori Kanzaki"
+          },
+          {
+            "title": "はいよろこんで",
+            "album": "はいよろこんで",
+            "release_year": 2024,
+            "artists": [
+              "Kocchi no Kento"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/KAaUyVJoNAE/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=KAaUyVJoNAE",
+            "channel": "こっちのけんと"
+          },
+          {
+            "title": "Nothing's Working Out",
+            "album": "POP SOS",
+            "release_year": 2021,
+            "artists": [
+              "meiyo"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/-w2tkYJnJA8/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=-w2tkYJnJA8",
+            "channel": "meiyo"
+          },
+          {
+            "title": "貴方の恋人になりたい",
+            "album": "するどいささくれ",
+            "release_year": 2022,
+            "artists": [
+              "チョーキューメイ"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/tc0FL9JROGQ/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=tc0FL9JROGQ",
+            "channel": "ChoQMay"
           }
         ]
       }

@@ -1618,6 +1618,37 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/pgKrcYACbM4/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=pgKrcYACbM4",
             "channel": "ななひら / Nanahira"
+          },
+          {
+            "title": "Unwelcome School",
+            "album": "Blue Archive 3rd Anniversary",
+            "release_year": 2024,
+            "artists": [
+              "Mitsukiyo"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/eMqWJDP28p8/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=eMqWJDP28p8",
+            "channel": "ミツキヨ (Mitsukiyo)"
+          },
+          {
+            "title": "Steve's Lava Chicken (Camellia Remix)",
+            "album": null,
+            "release_year": null,
+            "artists": null,
+            "thumbnail": "https://i.ytimg.com/vi/eoJyskz0TxU/maxresdefault.jpg",
+            "url": "https://music.youtube.com/watch?v=eoJyskz0TxU",
+            "channel": "Camellia Official"
+          },
+          {
+            "title": "ENERGY SYNERGY MATRIX",
+            "album": "た -TA-",
+            "release_year": 2022,
+            "artists": [
+              "Tanchiky"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/Y9Uvwk_zagk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=Y9Uvwk_zagk",
+            "channel": "Tanchiky"
           }
         ]
       }

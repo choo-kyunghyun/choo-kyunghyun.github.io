@@ -400,6 +400,29 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/2UAJagVVths/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=2UAJagVVths",
             "channel": "Yuuhei Satellite - Topic"
+          },
+          {
+            "title": "チルノのパーフェクトさんすう学園",
+            "album": "チルノのパーフェクトさんすう学園",
+            "release_year": 2025,
+            "artists": [
+              "COOL&CREATE"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/ytSIJdRFrAk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ytSIJdRFrAk",
+            "channel": "beatMARIO / COOL&CREATE"
+          },
+          {
+            "title": "Bad Apple!!",
+            "album": "とうほう☆みくれいむ",
+            "release_year": 2025,
+            "artists": [
+              "COOL&CREATE",
+              "SEKAI (Hatsune Miku)"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/SNFClxSCx_4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=SNFClxSCx_4",
+            "channel": "beatMARIO / COOL&CREATE"
           }
         ]
       }
