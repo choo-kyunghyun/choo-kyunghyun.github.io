@@ -45,6 +45,29 @@
         ],
         "items": [
           {
+            "title": "チルノのパーフェクトさんすう学園",
+            "album": "チルノのパーフェクトさんすう学園",
+            "release_year": 2025,
+            "artists": [
+              "COOL&CREATE"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/ytSIJdRFrAk/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=ytSIJdRFrAk",
+            "channel": "beatMARIO / COOL&CREATE"
+          },
+          {
+            "title": "Bad Apple!!",
+            "album": "とうほう☆みくれいむ",
+            "release_year": 2025,
+            "artists": [
+              "COOL&CREATE",
+              "SEKAI (Hatsune Miku)"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/SNFClxSCx_4/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=SNFClxSCx_4",
+            "channel": "beatMARIO / COOL&CREATE"
+          },
+          {
             "title": "Help me, ERINNNNNN!!",
             "artists": [
               "COOL&CREATE",
@@ -65,6 +88,21 @@
             "release_year": 2024,
             "thumbnail": "https://i.ytimg.com/vi_webp/Jg8RKOUxCa4/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=Jg8RKOUxCa4",
+            "channel": "beatMARIO / COOL&CREATE"
+          },
+          {
+            "title": "カラフルバレット88 (ビートまりお×まろん×まらしぃ)",
+            "album": "カラフルバレット88",
+            "release_year": 2023,
+            "artists": [
+              "COOL&CREATE",
+              "beatMARIO",
+              "MARON",
+              "marasy",
+              "Hatsune Miku"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/CPfbYOZUwhU/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=CPfbYOZUwhU",
             "channel": "beatMARIO / COOL&CREATE"
           },
           {
@@ -400,29 +438,6 @@
             "thumbnail": "https://i.ytimg.com/vi_webp/2UAJagVVths/maxresdefault.webp",
             "url": "https://music.youtube.com/watch?v=2UAJagVVths",
             "channel": "Yuuhei Satellite - Topic"
-          },
-          {
-            "title": "チルノのパーフェクトさんすう学園",
-            "album": "チルノのパーフェクトさんすう学園",
-            "release_year": 2025,
-            "artists": [
-              "COOL&CREATE"
-            ],
-            "thumbnail": "https://i.ytimg.com/vi_webp/ytSIJdRFrAk/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=ytSIJdRFrAk",
-            "channel": "beatMARIO / COOL&CREATE"
-          },
-          {
-            "title": "Bad Apple!!",
-            "album": "とうほう☆みくれいむ",
-            "release_year": 2025,
-            "artists": [
-              "COOL&CREATE",
-              "SEKAI (Hatsune Miku)"
-            ],
-            "thumbnail": "https://i.ytimg.com/vi_webp/SNFClxSCx_4/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=SNFClxSCx_4",
-            "channel": "beatMARIO / COOL&CREATE"
           }
         ]
       }

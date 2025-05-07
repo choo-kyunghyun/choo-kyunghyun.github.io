@@ -604,61 +604,6 @@
             "channel": "Green Day"
           },
           {
-            "title": "Bones",
-            "artists": [
-              "Imagine Dragons"
-            ],
-            "album": "Bones",
-            "release_year": 2022,
-            "thumbnail": "https://i.ytimg.com/vi_webp/V2SVRJ6dcE4/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=V2SVRJ6dcE4",
-            "channel": "ImagineDragons"
-          },
-          {
-            "title": "Believer",
-            "artists": [
-              "Imagine Dragons"
-            ],
-            "album": "Evolve",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/Kx7B-XvmFtE/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=Kx7B-XvmFtE",
-            "channel": "ImagineDragons"
-          },
-          {
-            "title": "Thunder",
-            "artists": [
-              "Imagine Dragons"
-            ],
-            "album": "Evolve",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/9ssQKlLxBdQ/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=9ssQKlLxBdQ",
-            "channel": "ImagineDragons"
-          },
-          {
-            "title": "Whatever It Takes",
-            "artists": [
-              "Imagine Dragons"
-            ],
-            "album": "Evolve",
-            "release_year": 2017,
-            "thumbnail": "https://i.ytimg.com/vi_webp/cnRB2CgUpSw/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=cnRB2CgUpSw",
-            "channel": "ImagineDragons"
-          },
-          {
-            "title": "Radioactive",
-            "artists": [
-              "Imagine Dragons"
-            ],
-            "album": "Night Visions",
-            "release_year": 2012,
-            "thumbnail": "https://i.ytimg.com/vi_webp/R_BO8C05XLA/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=R_BO8C05XLA",
-            "channel": "ImagineDragons"
-          },
-          {
             "title": "I'm Yours",
             "artists": [
               "Jason Mraz"
@@ -1162,6 +1107,17 @@
             "channel": "Scatman John Official YouTube Channel"
           },
           {
+            "title": "Fabulous Secret Powers",
+            "album": "Fabulous Secret Powers",
+            "release_year": 2016,
+            "artists": [
+              "SLACKCiRCUS"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi_webp/3chCr8xYTOY/maxresdefault.webp",
+            "url": "https://music.youtube.com/watch?v=3chCr8xYTOY",
+            "channel": "SLACKCiRCUS - Topic"
+          },
+          {
             "title": "All Star",
             "artists": [
               "Smash Mouth"
@@ -1432,17 +1388,6 @@
             "thumbnail": "https://i.ytimg.com/vi/W20gcM6_UtQ/maxresdefault.jpg",
             "url": "https://music.youtube.com/watch?v=W20gcM6_UtQ",
             "channel": "Ylvis"
-          },
-          {
-            "title": "Fabulous Secret Powers",
-            "album": "Fabulous Secret Powers",
-            "release_year": 2016,
-            "artists": [
-              "SLACKCiRCUS"
-            ],
-            "thumbnail": "https://i.ytimg.com/vi_webp/3chCr8xYTOY/maxresdefault.webp",
-            "url": "https://music.youtube.com/watch?v=3chCr8xYTOY",
-            "channel": "SLACKCiRCUS - Topic"
           }
         ]
       }
